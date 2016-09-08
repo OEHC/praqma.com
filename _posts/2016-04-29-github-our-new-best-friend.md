@@ -7,6 +7,8 @@ author-link: http://twitter.com/lakruzz
 comments:    true
 avatar:     /images/stories/github-4x3.png
 nav-weight: 5
+redirect_from:
+  -  /2016-04-29-github-or-new-best-friend/
 ---
 
 __Git, the Open Source distributed VCS, has surely been one of the largest game changers in modern software development. But another one, maybe even bigger than git itself, is GitHub - All developer's collaboration platform with 14 million users. ...and since last month also partner with Praqma in Scandinavia.__
