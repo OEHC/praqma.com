@@ -1,7 +1,7 @@
 ---
 title:      Clients
 caption:    We simply love our clients - we own their problems - and we solve them
-avatar:     /images/about/customers.png
+avatar:     /images/about/customers.svg
 css-class:  customers
 nav-weight: 40
 redirect_from:

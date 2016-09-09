@@ -1,7 +1,7 @@
 ---
 title:      Offices
 caption:    We have five offices in three countries
-avatar:     /images/about/globe.png
+avatar:     /images/about/globe.svg
 css-class:  offices
 nav-weight: 30
 ---
