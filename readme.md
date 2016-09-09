@@ -52,9 +52,9 @@ From *Sapiens, A Brief History of Humankind (Harari)*, pp 41
 Weight
 ---
 
-Heavy things sink to the bottom (c) @JKrag
+Heavy things sink to the bottom © @JKrag
 
-Or to the right (c) @illus0r
+Or to the right © @illus0r
 
 Default weight of the post is `0`
 
