@@ -17,6 +17,10 @@ tools:
     logo: /images/services/tools/docker.png
     link:
   -
+    name: Github
+    logo: /images/services/tools/github.png
+    link: 
+  -
     name: Jenkins
     logo: /images/services/tools/jenkins.png
     link:
