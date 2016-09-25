@@ -17,18 +17,14 @@ page-banners:
                   #the length of a tweet.
 
  - avatar:        /images/front/bw-praqma-shirts.png
-   url:           /about/jobs/
-   header:        COME CoDe WITH US
-   caption:       We have offices in Allerød, Aarhus, Copenhagen, Oslo and Stockholm
-                  and we’re hiring in all locations. <br>
-                  If you’re a CoDer at heart, please come and join us!
+   url:           /stories/onboarding/
+   header:        Earn your orange wings
+   caption:       Familiarize yourself with our on-boarding process for employees and interns. If you’re a CoDer at heart, please come and join us!
 
-
- - avatar:        /images/services/tools/atlassian_new_grey_back.png
-   url:           /services/atlassian
-   header:        CERTIFIED ATLASSIAN EXPERT
-   caption:       Praqma provides solutions and services that accelerate your benefits of Atlassian products. <br>
-                  Let us help you get started - or get better
+ - avatar:        /images/front/code-academy-front.jpg
+   url:           http://code-conf.com
+   header:        Driving the Continuous Delivery Community
+   caption:       Praqma organizes conferences, academies, meetups, hackatons, workshops and training. We're literally building the community
 
  - avatar:        /images/front/docker_intro_600x287.jpg
    url:           /training/docker-intro/

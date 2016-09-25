@@ -1,7 +1,7 @@
 ---
 title:      GitHub - Our new best friend!
 subtitle:   Partnering up with GitHub is a dream come true
-tags:       [GitHub, Git, Partner, Featured]
+tags:       [GitHub, Git, Partner]
 author:      Lars Kruse
 author-link: http://twitter.com/lakruzz
 comments:    true

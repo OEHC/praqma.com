@@ -2,9 +2,11 @@
 title:      Event Manager at Praqma
 caption:    Driving the Continuous Delivery Community in Scandinavia through Events and meetups
 subtitle:   Driving the Continuous Delivery Community in Scandinavia through Events and meetups
-tags:       [Jobs]
+tags:
+  - Jobs
+  - Featured
 avatar:     /images/about/lego-event.jpg
-nav-weight: 40
+nav-weight: 5
 ---
 
 __We would do more events, if we had the bandwidth - you’re it! You will have to be as ambitious about this as we are, and you will have to be prepared to take on more people, and manage them too, even in the very near future.__

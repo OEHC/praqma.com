@@ -6,8 +6,8 @@ avatar:     /images/stories/firm20-innovator.jpg
 nav-weight: 40
 ---
 
-This is not the average job vacancy posting! Do you have an entrepreneur inside you - begging to come out and face a challenge that can match your ambitions? Do you dare to lead the process of building a Firm v2.0 startup based purely on the foundation of modern software development principles?
-{: .highlight}
+__This is not the average job vacancy posting! Do you have an entrepreneur inside you - begging to come out and face a challenge that can match your ambitions? Do you dare to lead the process of building a Firm v2.0 startup based purely on the foundation of modern software development principles?__
+
 
 <!--break-->
 

@@ -1,9 +1,10 @@
 {% comment %}
 * tag — tag to filter. Register sensetive.
 * limit — number of posts. Skip to output all.
-* avatar-alignment — avatar alignment TODO implement
-* sort — name of filed to sort. Skip to filter by date.
+* avatar-alignment — avatar alignment TODO implement (https://github.com/Praqma/praqma.com/issues/383)
+* sort — name of field to sort. Skip to filter by date.
 * header — optional header of the block.
+* show-date - true|false - true is default.
 {% endcomment %}
 
 {% assign posts = site.posts %}
@@ -17,6 +18,11 @@ If we sort first, we can filter and limit at once then.
 {% assign sort = "date" %}
 {% if include.sort %}
   {% assign sort = include.sort %}
+{% endif %}
+
+{% assign show-date = "true" %}
+{% if include.show-date %}
+  {% assign show-date = include.show-date %}
 {% endif %}
 
 {% if sort != "date" %}
@@ -54,9 +60,11 @@ Filtering and limiting
           <h2>
             <a href="{{ post.url }}">{{ post.title }}</a>
           </h2>
+          {% if show-date == "true" %}
           <div class="date">
             {{ post.date | date: "%B %d, %Y" }}
           </div>
+          {% endif %}
           <div class="content">
             {% if post.subtitle %}
               <h2 class="subtitle">{{ post.subtitle | markdownify }}</h2>

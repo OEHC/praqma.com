@@ -1,6 +1,6 @@
 ---
 title: Github & Praqma - our NextGen Software Development Seminar
-tags: [Featured, GitHub, Strategy, Tools, Continuous Delivery]
+tags: [GitHub, Strategy, Tools, Continuous Delivery]
 avatar: /images/stories/vipsem.png
 published:  true
 ---

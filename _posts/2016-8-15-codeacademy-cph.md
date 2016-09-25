@@ -3,6 +3,11 @@ title: CoDe Academy Copenhagen 2016
 tags: [Continuous Delivery, Academy, Agile]
 avatar: /images/stories/long-lego-table.jpg
 published:  true
+tags:
+  - Continuous Delivery
+  - Conference
+  - Learning
+  - Featured
 ---
 
 The Copenhagen CoDe Academy 2016 got off to a flying start.
