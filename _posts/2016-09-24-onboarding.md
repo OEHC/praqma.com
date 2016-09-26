@@ -16,7 +16,7 @@ nav-weight: 5
 
 All our [open positions](../../about/jobs/) are listed here on our website. If you want to apply for an internship, you probably want to read about our approach to [Praqticums](../praqticum/) if you think that you have something to offer, and wanna be orange like the rest of us, but you can't see, that we have posted a vacant position that matches, then feel free to challenge us; send us an unsolicited application. We value initiative.
 
-## This is how an employment typically works in Praqma
+## This is how we typically hires a new employee at Praqma
 
 ### We establish contact and mutual interest in each other
 
@@ -37,7 +37,7 @@ And another note: We will read you motivational letter _before_ you CV - so be m
 
 If we're good for each other we will take next step.
 
-### We meet for an interview with at least two partners present
+### We meet for an interview
 
 We will go into depth with what Praqma is, how we work, and we will discuss how you like that way of working and together we will explore if there is that match between us. We might talk concrete upcoming assignments, but we will definitely tell you war stories from some of our existing clients. It's not that we will try to scare you off, but then again, if anything we say scares you, then it's good to get it out in the open: _Fail early_ is an important doctrine within CoDe.
 
@@ -59,17 +59,11 @@ Our business is run as a fully self-sustained business, no heavy investors, we'r
 
 Occasionally we ask people to sit tight in their current jobs (we call them _sleepers_) and wait for us to call upon them. Sometimes if we're talking Praqma _prospects_; people we need to mold or train a little bit in our knowledge domain, we would often taken them in immediately and have them working internally in our _CoDe mines_ or Open Source projects, to learn how to talk the talk and walk the walk.
 
-## Trial periods and pay raises
-
-Many companies have a 2-3 month trial period on new employees; meaning that the contract can be ended with days notice in this period.
+## Salary and pay raises
 
 Many people change job, simply to get a pay raise.
 
-We don't believe much in neither _trial periods_ or _pay raises_ when you start a new job.
-
-We don't believe it's fair to employ someone, who will quit their job to join us, and then give them a trial period, where we could potentially push them into unemployment with no warning. You will have a fair notice period when you join Praqma, from day one.
-
-We also believe that, if we shall give anyone a pay raise, it's because they earned it - with us. When you start with Praqma, we will typically be prepared to match the salary you had in you previous job. But sometimes, if you come from a really boring job, we also sometimes see, that you are compensated for boredom - with a high salary.
+We don't believe you should join Praqma to get a better salary. We also believe that, if we shall give anyone a pay raise, it's because they earned it - with us. When you start with Praqma, we will typically be prepared to match the salary you had in you previous job. But sometimes, if you come from a really boring job, we also sometimes see, that you are compensated for boredom - with a high salary.
 
 But Praqma is not boring - and it has actually happened a few times, that people will have to settle back to the salary level for an _exciting_ job, and then work their way up from there, while with us.
 
