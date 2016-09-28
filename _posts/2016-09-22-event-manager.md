@@ -50,3 +50,5 @@ We will of course expect to see your CV, but if you already have that updated on
 What we really expect from you, when you apply, is a motivational letter (in PDF format) where you put yourself in the context of Praqma, and explain to us, why this job has your name written all over it.
 
 If you have any questions before you do that, please call Lars on +45 20 87 25 30 or mail him on [lak@praqma.com](mailto:lak@praqma.com).
+
+__Familiarize yourself with our onboarding process; [Get Your Orange Wings](http://www.praqma.com/stories/onboarding/)__
