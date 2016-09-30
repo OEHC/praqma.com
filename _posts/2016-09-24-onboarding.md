@@ -22,12 +22,12 @@ This is typically where you contact us, well sometimes it's the other way around
 
 Obviously we're interested in your skills, experiences and interests, but we're also interested in seeing, if you're interested in us. If there is a match.
 
-When you apply for a job or an internship, we expect two things (both in `.pdf` format) from you:
+When you apply for a job or an internship, we expect two things from you (both in `.pdf` format):
 
 * A CV
 * A motivational letter
 
-The CV is obvious, you all get that part. But not seldom, we see that it's the only thing we get - We don't hire no one on their CV alone.
+The CV is obvious, you all get that part. But not seldom, do we see that it's the _only_ thing we get - We don't hire no one on their CV alone.
 
 You need to also send us a motivational letter; A letter where you put yourself in the context of Praqma, and explain to us, why this job has your name written all over it. Show us _who_ you are - not just _what_ you are.
 
@@ -67,8 +67,8 @@ Occasionally we ask people to sit tight in their current jobs (we call them _sle
 
 Many people change job, simply to get a pay raise.
 
-We don't believe you should join Praqma to get a better salary. We also believe that, if we shall give anyone a pay raise, it's because they earned it - with us. When you start with Praqma, we will typically be prepared to match the salary you had in you previous job. But if you come from a really boring job, we also sometimes see, that you are compensated for boredom - with a high salary.
+We don't believe you should join Praqma to get a better salary. We do believe in pay raises, but if we shall give anyone a pay raise, it's because they earned it - with us. When you start with Praqma, we will typically be prepared to match the salary you had in you previous job. But if you come from a really boring job, we also sometimes see, that you are compensated for boredom - with a high salary.
 
 But Praqma is not boring - and it has actually happened a few times, that people will have to settle back to the salary level for an _exciting_ job, and then work their way up from there, while with us.
 
-We strive to support, that whatever career path you see for yourself, we want you to enable you to thread that path inside Praqma. Every employee will meet with management in a personal evaluation at least once every year. The expectation is that - like Praqma in general - you too will grow, while in Praqma. Your responsibilities will expand and when you grow you become more valuable too - you will typically get an annual pay raise while you're with us.
+We strive to support, that whatever career path you see for yourself, we want to enable you to thread that path _inside_ Praqma. Every employee will meet with management in a personal evaluation at least once every year. The expectation is that - like Praqma in general - you too will grow, while in Praqma. Your responsibilities will expand and when you grow you become more valuable too - you will typically get an annual pay raise while you're with us.
