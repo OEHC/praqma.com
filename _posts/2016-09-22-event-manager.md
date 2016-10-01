@@ -24,6 +24,8 @@ _A lot_ of conferences, meetups, and trainings actually!
 
 Up until now, our community activities and events have been run by our sales and marketing team. But as we’re expanding our business in general, we need you to come and join us, and be responsible for planning, organizing, and executing our events. You will become part of our sales and marketing team, and together with them, cover all three Scandinavian countries.
 
+Our sales and marketing is located in Copenhagen, so it's probably most convenient, you are located in that area too, at least you should be prepared to spend a considerable amount of you work in Copenhagen.
+
 ## What's the job
 
 To give you an idea of our activities:
@@ -43,7 +45,7 @@ We need you to manage and coordinate this. At the end of the day, it will be a t
 
 This is not your average Event manager position. We would do more events, if we had the bandwidth - you’re it! You will have to be as ambitious about this as we are, and you will have to be prepared to take on more people, and manage them too, even in the very near future.
 
-We believe you have an educational background in sale, marketing, business development, communication or something along those lines, and we also think that you’ve been doing something similar before - so you know what you are about to join.
+We believe you have an educational background in sale, marketing, business development, communication or something along those lines, and we also imagine that you’ve been doing something similar before - so you know what you are about to join.
 
 If “you” exist, please apply for this job at the email address jobs@praqma.com.
 We will of course expect to see your CV, but if you already have that updated online, on LinkedIn or somewhere else, pointing us to it would be just fine.

@@ -27,11 +27,21 @@ When you apply for a job or an internship, we expect two things from you (both i
 * A CV
 * A motivational letter
 
-The CV is obvious, you all get that part. But not seldom, do we see that it's the _only_ thing we get - We don't hire no one on their CV alone.
+The CV is obviously there to give us an idea of your current level of experience and skills.
 
-You need to also send us a motivational letter; A letter where you put yourself in the context of Praqma, and explain to us, why this job has your name written all over it. Show us _who_ you are - not just _what_ you are.
+Even if you're young or newly educated, don't be embarrassed by you lean CV; We know how it works, experience comes with age and work. We take on a lot of young people and we even take on people who are experienced in other domains, to mold and paint them orange.
+
+We're a people's company - it's very much about _who_ you are not just _what_ you are.
+
+That is why you must also send us a motivational letter.
+
+A letter where you put yourself in the context of Praqma, and explain to us, why this job has your name written all over it. You motivational letter shall show us _who_ you are, and it shall show us that you know things about Praqma, that convince us that you have an idea of what you're going into.
+
+Think of it like this: _You_ want us to like you - and _we_ want you to like us back. It helps if you can show us some genuine interest in Praqma when you apply.
 
 We will read you motivational letter _before_ your CV - so be motivated!
+
+We don't hire no one on their CV alone. So if a CV is all we get, or even if you motivational letter isn't presented in context of Praqma. Then it's not likely that we will call you in for an interview.
 
 ### No due dates - we will hire you when we've found you
 
