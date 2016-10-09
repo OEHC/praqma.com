@@ -10,9 +10,9 @@
   .description{
     display: inline-block;
     margin-left: 10px;
-    @media 
-    (-webkit-min-device-pixel-ratio: 2), 
-    (min-resolution: 192dpi) { 
+    @media
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
       // renders smaller on retina for some reason, so I apply this
       font-size: 20px;
     }
@@ -54,4 +54,10 @@
 .description{
   font-family: $font-family-decorative;
   letter-spacing: 0.1em;
+}
+
+.cuff{
+  font-family: $font-family-condensed;
+  font-weight: 600;
+  line-height: 1.3;
 }

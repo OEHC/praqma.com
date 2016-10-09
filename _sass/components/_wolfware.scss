@@ -1,0 +1,12 @@
+.wolf-item{
+	display: block;
+}
+
+.wolf-item:before{
+	content: '';
+  background: transparent url(/images/stories/bonnie/paw.png) 0 0 no-repeat;
+	content: '';
+  background-size: 70%;
+  background-position: center;
+  padding-left: 17px;
+}
