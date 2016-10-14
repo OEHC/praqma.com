@@ -8,9 +8,9 @@ location: Copenhagen, Stockholm, Oslo
 avatar:   /images/training/master_git_4x3.png
 schedule:
   -
-    location:     Copenhagen
-    date:         2016-05-23
-    eventbriteid: 23176930824
+    location:     Oslo
+    date:         2016-10-31
+    eventbriteid: 18226868053
 ---
 
 ## Two Day on-site intensive hands-on training
