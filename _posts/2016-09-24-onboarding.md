@@ -3,6 +3,7 @@ title: Get your orange wings
 subtitle: The onboarding process at Praqma
 tags:
   - How We Work
+  - Jobs
 author: Lars Kruse
 author-link: 'http://twitter.com/lakruzz'
 comments: false

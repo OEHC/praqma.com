@@ -7,6 +7,7 @@ tags:
   - Featured
 avatar:     /images/about/lego-event.jpg
 nav-weight: 5
+published: false
 ---
 
 __We would do more events, if we had the bandwidth - you’re it! You will have to be as ambitious about this as we are, and you will have to be prepared to take on more people, and manage them too, even in the very near future.__

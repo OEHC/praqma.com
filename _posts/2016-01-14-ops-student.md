@@ -5,6 +5,7 @@ caption:    We're hiring - are you an up and coming IT Operations expert?
 tags:       [Jobs]
 avatar:     /images/stories/praqma-ops.jpg
 nav-weight: 20
+published: false
 ---
 
 At Praqma we specialize in Continuous Delivery as well as DevOps.
