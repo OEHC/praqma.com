@@ -10,22 +10,22 @@ avatar: /images/stories/bonnie/wolf-with-mug.png
 nav-weight: 5
 ---
 
-This is the bloody but in the end edifying tale about "The Bonnie Situation", which we at Praqma use as a metaphor for what consultancy is all about - solving problems. You'll be introduced to Mr. Wolf - or just 'Winston' for those who are on first name with the gentleman - and you will learn why we consider him a role model for any consultant.
+This is the bloody but ultimately edifying tale about "The Bonnie Situation"; At Praqma use as a metaphor for what consultancy is all about - solving problems. You'll be introduced to Mr. Wolf - 'Winston' for those on first name terms - and you will see why we consider him a role model for any consultant.
 {: .cuff }
 
 <!--break-->
 
 # The Bonnie Situation
 
-The story you are about to read is a retelling of one of the many parallel stories that are told in Quentin Tarantino's movie Pulp Fiction - ranked as #7 on IMDM all-time-best-movies list.
+The story you are about to read is a retelling of a chapter in Quentin Tarantino's movie Pulp Fiction - ranked as #7 on IMDM all-time-best-movies list.
 {: .cuff}
 
-Jules Winnfield and Vincent Vega are sitting in front of a car. On the back seat is the young boy Marvin. This has been the worst day in Marvin's life, which, by the way, is about to come to an end real soon.
+Jules Winnfield and Vincent Vega are sitting in front of a car. On the back seat is the young man Marvin. This has been the worst day in Marvin's life, a life which is about to come to an end real soon.
 
-![Big Kahuna Burger](/images/stories/bonnie/jules-bkb.jpg){: .pic .small .left} Just before this car ride, Jules and Vincent went to an apartment somewhere in Los Angeles, where four young boys were having their breakfast (Big Kahuna Burgers). The purpose of their visit was to collect a briefcase of something very
-[precious](https://www.google.com/search?q=pulp%20fiction%20what%27s%20in%20the%20case%20theory){: target="_blank" }, which the boys unfortunately forgot to deliver to their business partner Mr. Marcellus Wallace - who also happens to be Vincent and Jules' boss - hence the visit.
+![Big Kahuna Burger](/images/stories/bonnie/jules-bkb.jpg){: .pic .small .left} Just before this car ride, Jules and Vincent had gone to an apartment in Los Angeles where four young boys were having their breakfast (Big Kahuna Burgers). The purpose of their visit was to collect a briefcase of something very
+[precious](https://www.google.com/search?q=pulp%20fiction%20what%27s%20in%20the%20case%20theory){: target="_blank" }, something which these young men had neglected to deliver to their business partner, Mr. Marcellus Wallace. Marcellus is Vincent and Jules’s boss - hence the visit.
 
-They successfully collect Marcellus' briefcase and also wipe out three of the four young boys - the fourth being Marvin who was in on the job as an insider.
+They have successfully collected Marcellus' briefcase and they have also killed three of the four young boys - the fourth being Marvin who was in on the job as an insider.
 
 One of the three boys that Vincent and Jules shot in the apartment actually managed to empty his gun at the two - but all six bullets missed. Jules claims it was a miracle. Vincent calls it a coincidence - now they are having a deranged conversation on the subject of _divine intervention_.
 
@@ -40,7 +40,7 @@ The conversation between Jules and Vincent is leading nowhere, Vincent turns tow
 
             --- Vincent's gun goes off: BANG! ---
 
-Mostly out of habit, Jules is holding a gun in his hand. Suddenly the gun goes off and now Marvin's brain is all over the '74 Chevy Nova.
+Mostly as a habit, Jules is holding a gun in his hand. Suddenly the gun goes off and now Marvin's brain is all over the '74 Chevy Nova.
 
 Both Jules and Vincent start to panic. They have to get the car off the road, PRONTO! But, despite the seriousness of the situation, they sidetrack to a discussion whether or not there was or wasn't a bump in the road.
 
@@ -209,7 +209,7 @@ __WolfWare implies that the customer is quite competent and ambitious himself.__
 __WolfWare means that the consultants are in the Winston Wolf League.__ They are skilled far above average, and they have that _I solve problems_ attitude. They will pull the necessary strings in their personal network to solve the problem. They may not have encountered every single "Bonnie Situation" out there, but they have solved so many different Bonnie Situations that you can tell without a doubt that solving problems is their business.
 {: .wolf-item}
 
-__WolfWare means that the flip side of the Wolf metaphor has been mitigated actively.__ The consultants are not lone predators. Surely they are all capable of working alone, but they are now gathered in a pack where they exploit each others strengths - to a sum that reveals no weaknesses.
+__WolfWare means that the flip side of the Wolf metaphor; "The lone wolf" has been mitigated actively.__ The consultants are not lone predators. Surely they are all capable of working alone, but they are now gathered in a pack where they exploit each others strengths - to a sum that reveals no weaknesses.
 {: .wolf-item}
 
 __WolfWare is about being generous.__ It's means taking the time and energy to praise another man's gourmet coffee, even if you are really there to clean up another man's brain. Giving your best even when it's more than what was expected. _under-commit_ and _over-deliver_.
