@@ -23,9 +23,7 @@ We take pride in the fact that all our customers are ambitious about adopting th
 
 What this means is that we implement Continuous Delivery and DevOps in some of the most challenging and demanding real-life scenarios.
 
-Our policy with our clients is buy a man and get a team - which in plain english translates to the direct opposite of body shopping. None of our customers have ever seen a CV on any of our consultants. We deliver our work as a service, and it includes expertise in any approach or technology that could fit into the DevOps tool-stack or Continuous Delivery methodology.
-
-Our credo is: _"buy a man and get a team"_.
+Our credo is: _buy a man and get a team_ - which in plain english translates to _the direct opposite of body shopping_. None of our customers have ever seen a CV on any of our consultants. We deliver our work as a service, and it includes expertise in any approach or technology that could fit into the DevOps tool-stack or Continuous Delivery methodology.
 
 # What's the job?
 
