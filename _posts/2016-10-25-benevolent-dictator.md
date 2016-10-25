@@ -9,6 +9,7 @@ redirect_from:
   - /jobs/benevolent-dictator/
 avatar:     /images/stories/mr-wolf.jpg
 nav-weight: 5
+published: false
 ---
 
 In praqma we have a busy team of _CoDe miners_ digging out code nuggets to support both our field agents and our countless Open Source projects in "The CoDe Alliance". We need a benevolent dictator to take ownership.
