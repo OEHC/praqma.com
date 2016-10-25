@@ -65,27 +65,7 @@ Jimmie clearly doesn't think that Jules and Vincent have the situation under con
 
 Nine minutes and twenty seconds later, the door bell rings at Jimmie's house. Jimmie opens the door. Outside is Mr. Wolf: _"You are Jimmie! right? This is your house! I'm Winston Wolf. I solve problems"_
 
-![74 Chevy Nova with brains](/images/stories/bonnie/74-chevy-nova-with-brains.jpg){: .pic .center .medium} They now have 40 minutes left to solve "The Bonnie Situation". Mr. Wolf is taking the lead and lays out a very detailed plan on how to clean brains out of a 1974 Chevy Nova. Jimmie provides the cleaning products. The situation is tense and after the thorough and detailed instructions from Mr. Wolf, Vincent is not satisfied with the _tone_ and he's reluctant to get started before the communication is sorted out:
-
-    Mr. Wolf:   Jimmie, lead the way. Boys, get to work.
-    Vincent:    A please would be nice.
-    Mr. Wolf:   Come again?
-    Vincent:    I said a please would be nice.
-    Mr. Wolf:   Get it straight buster - I'm not here to say please, I'm here
-                to tell you what to do and if self-preservation is an instinct
-                you possess you'd better fucking do it and do it quick. I'm
-                here to help - if my help's not appreciated then lotsa luck,
-                gentlemen.
-    Jules:      No, Mr. Wolf, it ain't like that, your help is definitely
-                appreciated.
-    Vincent:    I don't mean any disrespect, I just don't like people barking
-                orders at me.
-    Mr. Wolf:   I'm curt with you because time is a factor. I think
-                fast, I talk fast and I need you guys to act fast if you wanna
-                get out of this. So, pretty please... with sugar on top. Clean
-                the fucking car.
-
-![Clean the fucking car](/images/stories/bonnie/clean-the-fucking-car.jpg){: .pic .center .medium}
+![74 Chevy Nova with brains](/images/stories/bonnie/74-chevy-nova-with-brains.jpg){: .pic .center .medium} They now have 40 minutes left to solve "The Bonnie Situation". Mr. Wolf is taking the lead and lays out a very detailed plan on how to clean brains out of a 1974 Chevy Nova. Jimmie provides the cleaning products.
 
 Eventually, the car gets cleaned up and the two unlucky fellows get a good wash by the garden hose. Jimmie finds some of his old clothes they can wear. Quite a bit more casual that what they are used to, but surely good enough.
 
@@ -198,22 +178,22 @@ His own presentation of himself is _"I'm Winston Wolf. I solve problems."_.
 
 If you yourself are a consultant, then our advice is: Meet you customers with that attitude. If you yourself are a customer, someone who uses consultants, then our advice is: Expect that attitude from your consultant.
 
-# Wolfware
+# Way of the wolf
 
-Internally at Praqma we use the term "WolfWare" almost as a methodology. It captures the essence of what we're doing and it sets the scene.
+Internally at Praqma we use the term "Wolf" almost as a philosophy. It captures the essence of what we're doing and represents the values of who we are and our approach to helping customers.
 {: .cuff}
 
-__WolfWare implies that the customer is quite competent and ambitious himself.__ The customer wouldn't normally go and hire a Wolf unless the problem is of such a nature that an on-site expert is really needed.
+__Wolves excel when the customer is quite competent and ambitious himself.__ The customer wouldn't normally go and hire a Wolf unless the problem is of such a nature that an on-site expert is really needed.
 {: .wolf-item}
 
-__WolfWare means that the consultants are in the Winston Wolf League.__ They are skilled far above average, and they have that _I solve problems_ attitude. They will pull the necessary strings in their personal network to solve the problem. They may not have encountered every single "Bonnie Situation" out there, but they have solved so many different Bonnie Situations that you can tell without a doubt that solving problems is their business.
+__Wolves are consultants in the Winston Wolf League.__ They are skilled far above average, and they have that _I solve problems_ attitude. They will pull the necessary strings in their personal network to solve the problem. They may not have encountered every single "Bonnie Situation" out there, but they have solved so many different Bonnie Situations that you can tell without a doubt that solving problems is their business.
 {: .wolf-item}
 
-__WolfWare means that the flip side of the Wolf metaphor; "The lone wolf" has been mitigated actively.__ The consultants are not lone predators. Surely they are all capable of working alone, but they are now gathered in a pack where they exploit each others strengths - to a sum that reveals no weaknesses.
+__Wolves turn the "The lone wolf" metaphor on its head.__ The consultants are not lone predators. Surely they are all capable of working alone, but they are now gathered in a pack where they exploit each others strengths - to a sum that reveals no weaknesses.
 {: .wolf-item}
 
-__WolfWare is about being generous.__ It's means taking the time and energy to praise another man's gourmet coffee, even if you are really there to clean up another man's brain. Giving your best even when it's more than what was expected. _under-commit_ and _over-deliver_.
+__Wolves are generous.__ It's means taking the time and energy to praise another man's gourmet coffee, even if you are really there to clean up another man's brain. Giving your best even when it's more than what was expected. Wolves _under-commit_ and _over-deliver_.
 {: .wolf-item}
 
-__WolfWare is that _I solve problems_ attitude.__ It's an avalanche of not-afraid and at the same time never throwing dice with death. Failure is not an option. The problem will be solved, one way or another. We _never_ lose.
+__Wolves have that _I solve problems_ attitude.__ It's an avalanche of not-afraid and at the same time never throwing dice with death. Failure is not an option. The problem will be solved, one way or another. We _never_ lose.
 {: .wolf-item}
