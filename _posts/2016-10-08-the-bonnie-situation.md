@@ -6,7 +6,7 @@ tags:
 author: Lars Kruse
 author-link: 'http://twitter.com/lakruzz'
 comments: false
-avatar: /images/stories/bonnie/wolf-with-mug.png
+avatar: /images/stories/bonnie/74-chevy-nova-with-brains_3x4.jpg
 nav-weight: 5
 ---
 
