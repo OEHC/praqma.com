@@ -10,7 +10,7 @@ avatar: /images/stories/bonnie/74-chevy-nova-with-brains_3x4.jpg
 nav-weight: 5
 ---
 
-This is the bloody but ultimately edifying tale about "The Bonnie Situation"; At Praqma use as a metaphor for what consultancy is all about - solving problems. You'll be introduced to Mr. Wolf - 'Winston' for those on first name terms - and you will see why we consider him a role model for any consultant.
+This is the bloody but ultimately edifying tale about "The Bonnie Situation"; At Praqma we use this story as a metaphor for what consultancy is all about - solving problems. You'll be introduced to Mr. Wolf - 'Winston' for those on first name terms - and you will see why we consider him a role model for any consultant.
 {: .kicker }
 
 <!--break-->
