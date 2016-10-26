@@ -13,7 +13,7 @@ published: false
 ---
 
 In Praqma, we believe in the power of open source to change the world.  Throughout our history we have been contributing to open source projects as well as creating our own, in collaboration with our clients.
-{: .cuff}
+{: .kicker}
 
 We have a busy team of _CoDe miners_ digging out code nuggets to support both our consultants in the field and our countless Open Source projects in "The CoDe Alliance".  As our company has grown, so has the ambitions of our projects. Now we need a benevolent dictator to take the helm!
 

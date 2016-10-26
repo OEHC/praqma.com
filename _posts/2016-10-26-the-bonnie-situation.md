@@ -11,14 +11,14 @@ nav-weight: 5
 ---
 
 This is the bloody but ultimately edifying tale about "The Bonnie Situation"; At Praqma use as a metaphor for what consultancy is all about - solving problems. You'll be introduced to Mr. Wolf - 'Winston' for those on first name terms - and you will see why we consider him a role model for any consultant.
-{: .cuff }
+{: .kicker }
 
 <!--break-->
 
 # The Bonnie Situation
 
 The story you are about to read is a retelling of a chapter in Quentin Tarantino's movie Pulp Fiction - ranked as #7 on IMDM all-time-best-movies list.
-{: .cuff}
+{: .kicker}
 
 Jules Winnfield and Vincent Vega are sitting in front of a car. On the back seat is the young man Marvin. This has been the worst day in Marvin's life, a life which is about to come to an end real soon.
 
@@ -83,7 +83,7 @@ Just before he takes off himself with Monster Joe's daughter Rachel, Jules and V
 # The interpretation
 
 The Bonnie Situation and the characters in it are a great metaphor for what consultancy in the software development industry is all about. We use all these characters as personas - the interpretation should be obvious.
-{: .cuff}
+{: .kicker}
 
 In the real world of our consulting, where our clients are all engaged in software development and have very skilled employees, we work together with customers and facilitate them. This is how we use the characters as personas:
 
@@ -181,7 +181,7 @@ If you yourself are a consultant, then our advice is: Meet you customers with th
 # Way of the wolf
 
 Internally at Praqma we use the term "Wolf" almost as a philosophy. It captures the essence of what we're doing and represents the values of who we are and our approach to helping customers.
-{: .cuff}
+{: .kicker}
 
 __Wolves excel when the customer is quite competent and ambitious himself.__ The customer wouldn't normally go and hire a Wolf unless the problem is of such a nature that an on-site expert is really needed.
 {: .wolf-item}

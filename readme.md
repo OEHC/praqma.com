@@ -39,7 +39,7 @@ To make table columns have equal width, add `equal` class to this table like thi
 {:.equal}
 ```
 
-It will be rendered to 
+It will be rendered to
 ![image](https://cloud.githubusercontent.com/assets/797993/15856717/fa3f1460-2cbf-11e6-80d9-c8a3cbd88c71.png)
 
 
@@ -62,3 +62,19 @@ Default weight of the post is `0`
 Employees
 ---
 Employees are described in `_employees/` directory. Their images are stored in `images/employees/` directory, they should be `.png` and named after correspondent employee. For example, to add the image for `lakruzz.md` name it `lakruzz.png`.
+
+# Stories
+
+### Avatar
+All stories must have an avatar: A picture that will be shown along site the intro (and in the upper right corner on the full format)
+
+The avatar picture shall be in the format 3:4 (height:width) e.g. 600x800px
+
+### Intro
+Also referred to as _kicker_, _standfirst_ or _deck_. All stories must have an intro.
+
+* The intro shall set the expectation for the reader.
+* It can contain either a summary or a teaser of the article.
+* It must work with the title.
+* The intro must be one whole section; It can _not_ contain line breaks.
+* You should aim for somewhere between 200-400 chars in the intro.

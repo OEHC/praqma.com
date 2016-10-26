@@ -12,7 +12,7 @@ published: false
 ---
 
 Consulting, Continuous Delivery, DevOps, Automation, fixing things that are broken - It's all about craftsmanship. Do you have the talent? Do you recognize quality when you see it? Do you wanna make the world a better place? - well at least the world of software! Join us as a Praqtitioner at Praqma.
-{: .cuff}
+{: .standfirst}
 
 <!--break-->
 
