@@ -9,6 +9,7 @@ redirect_from:
   - /jobs/benevolent-dictator/
 avatar:     /images/stories/pilate.jpg
 nav-weight: 5
+published: false
 ---
 
 In Praqma, we believe in the power of open source to change the world.  Throughout our history we have been contributing to open source projects as well as creating our own, in collaboration with our clients.

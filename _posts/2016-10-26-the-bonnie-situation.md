@@ -197,3 +197,5 @@ __Wolves are generous.__ It's means taking the time and energy to praise another
 
 __Wolves have that _I solve problems_ attitude.__ It's an avalanche of not-afraid and at the same time never throwing dice with death. Failure is not an option. The problem will be solved, one way or another. We _never_ lose.
 {: .wolf-item}
+
+__[Are you our next wolf?  Read on here...](http://www.praqma.com/stories/wolf)__
