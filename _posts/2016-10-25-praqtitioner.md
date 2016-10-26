@@ -1,5 +1,5 @@
 ---
-title:      How does "Praqtitioner" sound to you?
+title:      Praqtitioner (noun) - smart and get's things done
 subtitle:   We believe Continuos Delivery is a craft - are you a craftsman?
 tags:
   - Jobs
