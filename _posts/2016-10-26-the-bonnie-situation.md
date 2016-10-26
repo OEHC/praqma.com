@@ -46,7 +46,7 @@ Both Jules and Vincent start to panic. They have to get the car off the road, PR
 
 Jules makes a phone call to his friend, Jimmie, who lives nearby. They have to use his garage for a couple of hours.
 
-In the meantime, Jimmie isn't especially thrilled about the fact that his house has now become _"a dead nigger storage"_, as he puts it. His wife Bonnie will be home from work in one and a half hours and he will surely get divorced if she finds a dead body in her house. Both Vincent and Jules understand the severity of The Bonnie Situation, it's just that they haven't got a clue on how to solve it.
+In the meantime, Jimmie isn't especially thrilled about the fact that his house has now become a storage facility for corpses. His wife Bonnie will be home from work in one and a half hours and he will surely get divorced if she finds a dead body in her house. Both Vincent and Jules understand the severity of The Bonnie Situation, it's just that they haven't got a clue on how to solve it.
 
 Jimmie clearly doesn't think that Jules and Vincent have the situation under control. Jules calls their boss, Marcellus, and fills him in on the problem. Marcellus starts to analyze the situation, which only makes Jules panic even more:
 
