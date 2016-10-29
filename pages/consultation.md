@@ -2,11 +2,13 @@
 title: Want to learn more?
 subtitle: Talk to us about Continuous Delivery and DevOps
 caption: 1 Hour Free Consultation
-permalink: /1hour/
+permalink: /consultation/
+redirect_from:
+  - /1hour/
 layout: default
 ---
 
-<div class="layout-1hour">
+<div class="layout-consultation">
 	<main role="main">
 		<header>
 			<h1>{{ page.title }}</h1>

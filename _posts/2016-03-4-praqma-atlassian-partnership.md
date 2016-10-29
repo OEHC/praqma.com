@@ -90,6 +90,6 @@ __The Atlassian toolsuite:__
 
 ### We are confident that your business will benefit from our expertise and the tools we work with
 
-## [Book a free consultation here](http://www.praqma.com/1hour/)
+## [Book a free consultation here](http://www.praqma.com/consultation/)
 
 ### - and let's meet for a cup of coffee and a taste of your future success!

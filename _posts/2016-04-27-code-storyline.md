@@ -38,4 +38,4 @@ __But first:__
 
 <br/>
 
-## [Curious? Book a free consultation here](http://www.praqma.com/1hour/)
+## [Curious? Book a free consultation here](http://www.praqma.com/consultation/)

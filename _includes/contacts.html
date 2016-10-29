@@ -1,7 +1,7 @@
 <div class="contacts">
   <a class="phone" href="tel:{{ site.phone | remove:" " | remove:"-" }}">{{ site.phone }}</a>
   <a class="email" href="mailto:{{ site.email }}">{{ site.email }}</a>
-  {% if page.url != "/1hour/" %}
-    <a class="button" href="/1hour/">Book a free consultation</a>
+  {% if page.url != "/consultation/" %}
+    <a class="button" href="/consultation/">Book a free consultation</a>
   {% endif %}
 </div>
