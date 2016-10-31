@@ -78,3 +78,8 @@ Also referred to as _kicker_, _standfirst_ or _deck_. All stories must have an i
 * It must work with the title.
 * The intro must be one whole section; It can _not_ contain line breaks.
 * You should aim for somewhere between 200-400 chars in the intro.
+
+Questions?
+----
+
+Feel free to reach out to Lars or Mike in case of any questions.
