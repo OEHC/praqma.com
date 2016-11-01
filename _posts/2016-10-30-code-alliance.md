@@ -12,7 +12,7 @@ nav-weight: 5
 published: false
 ---
 
-For a couple of years now, we've been running Josra; _Joint Open Source Roadmap Alliance_. The members have produced some pretty awesome open source projects together. Now we're making it easier for everyone to join - by skipping the membership fee - and we're changing the name
+For a couple of years now, we've been running Josra; _Joint Open Source Roadmap Alliance_. The members have produced some pretty awesome open source projects together. Now we're making it easier for everyone to join - by skipping the membership fee - and we're changing the name.
 {: .kicker }
 
 <!--break-->
