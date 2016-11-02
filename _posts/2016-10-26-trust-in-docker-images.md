@@ -43,25 +43,16 @@ Before I run a Docker container, I always look at the Docker file behind it - as
 
 Here are my thoughts on what I look for, using the example from [Praqma/Yocto-build]( https://github.com/Praqma/yocto-build-container/blob/7e71250a34654af3bd5066cc3d9630e1d68a42c0/Dockerfile)
 
-```
+{% highlight shell %}
 # Base image for building Yocto images
 FROM ubuntu:14.04
 
-# Add support for proxies.
-# Values should be passed as build args
-# http://docs.docker.com/engine/reference/builder/#arg
-ENV http_proxy ${http_proxy:-}
-ENV https_proxy ${https_proxy:-}
-ENV no_proxy ${no_proxy:-}
+... (shortened for blogpost)
 
-ENV DEBIAN_FRONTEND noninteractive
-
-# Yocto's depends
 # Taken from here http://www.yoctoproject.org/docs/2.1/mega-manual/mega-manual.html#packages
 RUN apt-get -qq --yes update && \
     apt-get -qq --yes install gawk wget git-core diffstat unzip \
-    texinfo gcc-multilib build-essential chrpath socat libsdl1.2-dev \
-    xterm && \
+... (shortened for blogpost)
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
@@ -86,7 +77,7 @@ WORKDIR /var/build
 RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
 USER builduser
-```
+{% endhighlight %}
 
 * `FROM` because if the Dockerfile uses a base image, I would need to start my evaluation there.
 * _Package manager commands_ that are used to install software, because if they are from sources I don't trust there might be issues.
@@ -110,7 +101,7 @@ In the above example, I would basically also like to ensure the script I evaluat
 
 ## Docker automated builds gain trust
 
-One thing you need to require from your Docker images is that they are build using the [Docker automated builds](https://docs.docker.com/docker-hub/github/#automated-builds-from-github) for example for Github. Then the trust of traceability is improved. With Docker automated builds you get traceability between the source of the Docker file, the version of the image, and the actual build output. You can easily follow that. Here is an example from the above Docker file.
+One thing you need to require from your Docker images is that they are build using the [Docker automated builds](https://docs.docker.com/docker-hub/github/#automated-builds-from-github). Then the trust of traceability is improved. With Docker automated builds you get traceability between the source of the Docker file, the version of the image, and the actual build output. You can easily follow that as I will show in the following.
 
 ## Autobuilds links README and repo to frontpage
 

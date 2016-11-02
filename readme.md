@@ -23,6 +23,21 @@ All posts are treated as they have tag `Newest`. We add it in `_includes/posts.h
 
 You can skip any of `posts.html` parameters.
 
+Stories blog post are supposed to be reviewed and get feedback before being published, check our handbook: https://github.com/Praqma/handbook/blob/master/the_orange_way/blogging.md
+
+### Developer tips
+
+Fire up the website to browse it locally using our gh-pages container: https://github.com/Praqma/docker-gh-pages
+
+Use: `docker run -i -t -v /home/user/mysite:/home/jenkins -p 4444:4000 praqma/gh-pages jekyll serve --watch --host=0.0.0.0`
+
+Usually posts are using `published: false` to start with so they are not public on our before we coordinate it. 
+
+Add the `--unpublished` parameter to the above command to see those get build and published on local version also.
+
+
+
+
 ### Tags
 
 Convention: all tags should start with capital letter.
