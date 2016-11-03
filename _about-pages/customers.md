@@ -279,7 +279,7 @@ customers:
     link: https://telenor.com/
   -
     name: TV2
-    logo: /images/customers/tv2.png
+    logo: /images/customers/tv.png
     link: http://tv2.dk  
   -
     name: UK2
