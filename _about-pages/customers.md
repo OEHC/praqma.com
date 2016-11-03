@@ -50,6 +50,10 @@ customers:
     logo: /images/customers/bkultrasound.png
     link: http://bkultrasound.com/
   -
+    name: Blue Water Shipping
+    logo: /images/customers/bws.png
+    link: http://www.bws.dk/
+  -
     name: Bording Data
     logo: /images/customers/bording_logo.png
     link: http://bordingdata.com/
@@ -77,6 +81,10 @@ customers:
     name: Cryptera
     logo: /images/customers/cryptera.png
     link: http://www.cryptera.com/
+  -
+    name: Danelec Marine
+    logo: /images/customers/danelec.png
+    link: http://www.danelec-marine.com/
   -
     name: Danfoss
     logo: /images/customers/danfoss.png
@@ -142,9 +150,21 @@ customers:
     logo: /images/customers/genesys.png
     link: http://www.genesys.com/
   -
+    name: Informi Gis
+    logo: /images/customers/informi.png
+    link: http://www.informi.dk/
+  -
+    name: ISS
+    logo: /images/customers/iss.png
+    link: https://www.issworld.com/
+  -
     name: Jaguar
     logo: /images/customers/jaguar.png
     link: http://www.jaguar.co.uk/index.html
+  -
+    name: Kamstrup
+    logo: /images/customers/kamstrup.png
+    link: https://www.kamstrup.com/
   -
     name: LandRover
     logo: /images/customers/landrover.png
@@ -190,6 +210,10 @@ customers:
     logo: /images/customers/pelagicore.png
     link: http://pelagicore.com/
   -
+    name: PenSam
+    logo: /images/customers/pensam.png
+    link: https://www.pensam.dk
+  -
     name: Philips BioCell
     logo: /images/customers/philips_logo.jpg
     link: http://www.philips.com/a-w/biocell/home.html
@@ -205,6 +229,10 @@ customers:
     name: Radiometer
     logo: /images/customers/radiometer.png
     link: http://www.radiometer.com/
+  -
+    name: 3Shape
+    logo: /images/customers/3shape.png
+    link: http://www.3shape.com/
   -
     name: Schneider Electric
     logo: /images/customers/schneider-electric.png
@@ -234,9 +262,13 @@ customers:
     logo: /images/customers/stripe.png
     link: https://stripe.com/us
   -
-    name: Syntigo / Eurofiber 
+    name: Syntigo / Eurofiber
     logo: /images/customers/syntigo.png
     link: http://www.eurofiber.be/
+  -
+    name: Systematic
+    logo: /images/customers/systematic.png
+    link: http://www.systematic.com
   -
     name: Tamigo
     logo: /images/customers/tamigo-logo.png
@@ -245,6 +277,10 @@ customers:
     name: Telenor
     logo: /images/customers/telenor.jpeg
     link: https://telenor.com/
+  -
+    name: TV2
+    logo: /images/customers/tv2.png
+    link: http://tv2.dk  
   -
     name: UK2
     logo: /images/customers/uk2.png
@@ -261,6 +297,10 @@ customers:
     name: Volvo
     logo: /images/customers/volvo.png
     link: http://www.volvo.com/
+  -
+    name: Widex
+    logo: /images/customers/widex.png
+    link: http://www.widex.dk/da-dk
   -
     name: Xethru
     logo: /images/customers/xethru.png
