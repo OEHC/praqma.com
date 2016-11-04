@@ -12,24 +12,22 @@ nav-weight: 5
 published: false
 ---
 
-For a couple of years now, we've been running Josra; _Joint Open Source Roadmap Alliance_. The members have produced some pretty awesome open source projects together. Now we're making it easier for everyone to join - by skipping the membership fee - and we're changing the name.
+For nearly two years we've been running Josra; _Joint Open Source Roadmap Alliance_. In that time our members have collaborated on some pretty awesome open source projects. Now we're making it easier for people to join by scrapping the membership fee. Oh, and we're also changing the name! 
 {: .kicker }
 
 <!--break-->
 
-The alliance constituted and met for the first time in Oslo a day in April 2015. The focus was, right from the beginning, to single out companies, that had an ambitious mindset about the new software development paradigm; continuous delivery, automation in general, anything as code, programmable infrastructure, DevOps ...and all that Jazz.
+The alliance formed and met for the first time in Oslo in April 2015. Our primary focus was to identify companies that had an ambitious mindset about the new software development paradigm: continuous delivery, automation in general, anything as code, programmable infrastructure, DevOps ......all that Jazz.
 
-The original idea was, that Praqma already had a lot of Open Source community experience, and a lot of good Karma too, and we saw that our clients became more and more dependent op Open Source as they walked further and further into the landscape of contemporary modern tools - as most of the were Open Source too.
+Our clients were becoming more and more dependent on Open Source as they delved deeper into contemporary modern tools. We wanted these companies to feel safe as they explored the possibilities of Open Source. We wanted them to be able to engage in Open Source without worrying about developing a dependency that would slowly turn their software developers into purely Open Source contributors.
 
-We wanted to companies to feel safe when taking these steps and not be concerned about how the Open Source dependency might introduce an undesired scope creep and slowly turning their software developers with specific domain skills into Open Source contributors instead.
+Praqma already had a lot of Open Source community experience, and had earned a lot of good Karma along the way. We realised that we were in a great position to coordinate an Open Source alliance. First of all we would utilize the knowledge and insight gained from our work with _many_ different clients to identify _common_ issues and challenges. Then we would facilitate cooperation between likeminded companies with matching needs and desires to focus on the generic nature of their challenges. Once we'd established those relationships we would, on a basis of shared costs and ongoing collaboration, develop generic but configurable solutions, as Open source.
 
-With the alliance, we offered the members to facilitate all this; We would utilize our knowledge and insight, gained from our work with _many_ different clients to identify _common_ issues and challenges, and then we would facilitate that likeminded companies with matching needs and desires would focus on the generic nature of their challenges and then we would jointly, with shared costs and ongoing collaboration, develop the generic but configurable solution, as Open source.
-
-To kickstart the alliance we invited some of our most ambitious customers at the time to join: The alliance took off with Grundfos, Volvo, Yxlon International, MAN Diesel & Turbo, Novelda and Atmel short time after Cryptera joined too.
+To kickstart the project we invited some of our most ambitious customers to join. The alliance took off with Grundfos, Volvo, Yxlon International, MAN Diesel & Turbo, Novelda, Atmel, and after a short time Cryptera joined too.
 
 ## Finding our format
 
-We gathered roughly every half year in a full-day, each member organization sends one, two or maybe three participants. We run our gatherings in a rather informal unconference style; During the day, we will show demos of some of the achievements the alliance have made since last, but the majority of the day is spent in break-out sessions where the members gather in groups of interest and discuss the roadmap of the individual tools, new ideas or tricky challenges.
+Roughly every six months we would meet for a full-day with each member organization sending between one and three participants. We run our gatherings in a rather informal unconference style; During the day, we will show demos of some of the achievements the alliance have made since last, but the majority of the day is spent in break-out sessions where the members gather in groups of interest and discuss the roadmap of the individual tools, new ideas or tricky challenges.
 
 Last time we met, Atmel hosted the session in Trondheim and they gave us the grand tour on their impressive and extensive implementation of the Atlassian tool stack and demonstrated the [automated build pipeline](https://github.com/Praqma/automated-branch-pipelines){: target="_blank" } approach that was developed in context of the alliance.
 
