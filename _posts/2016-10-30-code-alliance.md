@@ -19,19 +19,19 @@ For a couple of years now, we've been running Josra; _Joint Open Source Roadmap 
 
 The alliance constituted and met for the first time in Oslo a day in April 2015. The focus was, right from the beginning, to single out companies, that had an ambitious mindset about the new software development paradigm; continuous delivery, automation in general, anything as code, programmable infrastructure, DevOps ...and all that Jazz.
 
-The original idea was, that Praqma already had a lot of Open Source community experience, and a lot of good Karma too, and we saw that our clients became more and more dependent op Open Source as they walked further and further into the landscape of contemporary modern tools - as most of the were Open Source too.
+The original idea was, that Praqma already had a lot of Open Source community experience, and a lot of good Karma too, and we saw that our clients became more and more dependent on Open Source as they walked further and further into the landscape of contemporary modern tools - as most of them were Open Source too.
 
-We wanted to companies to feel safe when taking these steps and not be concerned about how the Open Source dependency might introduce an undesired scope creep and slowly turning their software developers with specific domain skills into Open Source contributors instead.
+We wanted the companies to feel safe when taking these steps and not be concerned about how the Open Source dependency might introduce an undesired scope creep and slowly turn their software developers with specific domain skills into Open Source contributors instead.
 
 With the alliance, we offered the members to facilitate all this; We would utilize our knowledge and insight, gained from our work with _many_ different clients to identify _common_ issues and challenges, and then we would facilitate that likeminded companies with matching needs and desires would focus on the generic nature of their challenges and then we would jointly, with shared costs and ongoing collaboration, develop the generic but configurable solution, as Open source.
 
-To kickstart the alliance we invited some of our most ambitious customers at the time to join: The alliance took off with Grundfos, Volvo, Yxlon International, MAN Diesel & Turbo, Novelda and Atmel short time after Cryptera joined too.
+To kickstart the alliance we invited some of our most ambitious customers at the time to join: The alliance took off with Grundfos, Volvo, Yxlon International, MAN Diesel & Turbo, Novelda and Atmel. A short time after Cryptera joined too.
 
 ## Finding our format
 
-We gathered roughly every half year in a full-day, each member organization sends one, two or maybe three participants. We run our gatherings in a rather informal unconference style; During the day, we will show demos of some of the achievements the alliance have made since last, but the majority of the day is spent in break-out sessions where the members gather in groups of interest and discuss the roadmap of the individual tools, new ideas or tricky challenges.
+We gather roughly every half year for a full-day gathering, where each member organization sends one, two or maybe three participants. We run our gatherings in a rather informal unconference style; During the day, we will show demos of some of the achievements the alliance have made since last, but the majority of the day is spent in break-out sessions where the members gather in groups of interest and discuss the roadmap of the individual tools, new ideas or tricky challenges.
 
-Last time we met, Atmel hosted the session in Trondheim and they gave us the grand tour on their impressive and extensive implementation of the Atlassian tool stack and demonstrated the [automated build pipeline](https://github.com/Praqma/automated-branch-pipelines){: target="_blank" } approach that was developed in context of the alliance.
+Last time we met, Atmel hosted the session in Trondheim and they gave us the grand tour on their impressive and extensive implementation of the Atlassian tool stack and demonstrated their many achievements around automation and continuous delivery. [Automated branch pipelines](https://github.com/Praqma/automated-branch-pipelines){: target="_blank" } was a new experimental initiative in context of the alliance.
 
 The rest of the day we organized ourselves in three parallel groups during 2 sessions, covering a total of six specific topic together. Simply aligning the roadmap for these initiatives for the next six months, until we meet again.
 
@@ -41,7 +41,7 @@ Everyone agreed that this is the format we want to continue with:
 
 * One of the members will host the venue
 * The host will own about an hour of the morning agenda and give insight to their way of working
-* There will be practical demonstrations of the achievements in the alliance since last gathering.
+* There will be practical demonstrations of the achievements in the alliance since last gathering
 * We will meet in parallel open-space style discussions and hammer out roadmaps for or joint initiatives and efforts going 6 months forward
 * We will all stay over one night, to make sure that all the fun can continue during the evening over a relaxed meal and drinks
 
@@ -58,7 +58,7 @@ This part is so simple, that it's obvious and now when we've found the right for
 
 Here goes:
 
-When one of more members have identified a need for something, we hammer out a _statement of work_ (SoW) this resembles very much an _epic_ for those familiar with SAFe terminology. A Statement of work is a short description - one page, two at the most - touching on:
+When one of more members have identified a need for something, we hammer out a _statement of work_ (SoW) that resembles very much an _epic_ for those familiar with SAFe terminology. A Statement of work is a short description - one page, two at the most - touching on:
 
 * What's the user scenario?
 * What's the problem?
@@ -94,7 +94,7 @@ Funded by Atmel, Novelda, Grundfos, Cryptera, Volvo. The plugin has more than 15
 {: .highlight}
 
 ### Tracey
-An idea bread by Grundfos and Volvo in collaboration, that if a full trace is required in you software development lifecycle, then there need to be just _one_ tool that any contributing process can report traces to. Tracey is a microservice you can throw _any_ format of data on a REST api and it will store it in a graph database. It will keep track of related events and it is capable of reacting on incoming events to trigger external actions. Like other microservices, Jenkins jobs or data sync with other tools.
+An idea bread by Grundfos and Volvo in collaboration, that if a full trace is required in your software development lifecycle, then there need to be just _one_ tool that any contributing process can report traces to. Tracey is a microservice you can throw _any_ format of data on a REST api and it will store it in a graph database. It will keep track of related events and it is capable of reacting on incoming events to trigger external actions. Like other microservices, Jenkins jobs or data sync with other tools.
 
 In the alliance we all believe, that Tracey has the potential to belong to the next-generation automation platform, where no centralized client/server structure as known from most current CI servers is even required.
 
@@ -105,18 +105,18 @@ Funded by Grundfos and Volvo and part of the established Software Center Allianc
 
 ### Praqmatic Automated Changelog - PAC
 
-PAC is capable of analyzing the commits in a VCS and trace them back to the task or change management system involved and capture objects like, caption, description, commits, change set and any other item really, that you configure it to. Data is captured in MarkDown, styled using CSS and Liquid to generate reports supported by templates in both HTML and PDF.
+PAC is capable of analyzing the commits in a VCS and trace them back to the task or change management system involved and capture objects like, caption, description, commits, change set and any other items, that you configure it to. Data is captured in MarkDown, styled using CSS and Liquid to generate reports supported by templates in both HTML and PDF.
 
 PAC is a framework, that can be extended to use any VCS and any issue tracking system, provided they have an API. Git, Mercurial, Jira, GitHub Issues, Bugzilla and a handful more are already supported.
 
 Once PAC is configured in your pipeline, you'll get all your future release notes for free.
 
-Funded by Cryptera, Yxlon International
+Funded by Cryptera and Yxlon International.
 {: .highlight}
 
 ### MemoryMap
 
-Is another Jenkins plugin that will visualize the consumption and utilization of memory in the compiled binary. It's used within embedded software to make correct utilization of your device's memory an integrated part of your pipeline. It simply reads command files and map them agains the map files and then visualize the relation and offers configurable thresholds. It created as a framework the can support multiple compilers, it currently supports Texas Instruments compiler and GCC.
+Is another Jenkins plugin that will visualize the memory map for the compiled binary. It's used within embedded software to make correct utilization of your device's memory as an integrated part of your pipeline. It simply reads command files and map them against the map files and then visualize the relation and offers configurable thresholds. It created as a framework the can support multiple compilers, it currently supports Texas Instruments compiler and GCC.
 
 Funded by Yxlon International and MAN Diesel & Turbo, the plugin has hundreds of installations.
 {: .highlight}
@@ -125,7 +125,7 @@ Funded by Yxlon International and MAN Diesel & Turbo, the plugin has hundreds of
 There are plenty of more Open Source projects that originates from the alliance. you are welcome to browse the Open Source repositories in [our GitHub organization](https://github.com/Praqma/){: target="_blank"} - don't hesitate to contact us, if you see anything the catches you interest.
 
 ## How to become a member
-It's simple: Membership is by invitation only. The reason is that we need obviously need members to be ambitious, engaged and enthusiastic.
+It's simple: Membership is by invitation only. The reason is that we obviously need members to be ambitious, engaged and enthusiastic.
 
 If if you are a customer of Praqma, you are automatically invited - obviously. Since Praqma's customers are ambitious, engaged and enthusiastic.
 
