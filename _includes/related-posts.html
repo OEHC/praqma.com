@@ -1,0 +1,93 @@
+{% comment %}
+limit — how many items to show
+page_path — this page path
+{% endcomment %}
+{% assign limit = include.limit %}
+{% unless limit %}
+  {% assign limit = 2 %}
+{% endunless %}
+
+{% assign articles_with_same_tag = "" | split:"" %}
+{% for tag in page.tags %}
+  {% for post in site.tags[tag] %}
+    {% comment %}
+    hack
+    we can't construct maps in liquid.
+    But we want to sort posts with built in `sort` filter.
+    So we'll make an array of arrays like this
+    `[["a","1hello"],["a","a","8hello"],["a","a","a","3hello"]]`
+    amount of `"a"` elements will code the number of matched tags.
+    Such arrays will be sorted by length. So more relevant posts
+    will sink to the bottom.
+    {% endcomment %}
+    <!-- if array contains the element-->
+    <!-- we'll prepend `a` element to the `articles_with_same_tag`'s post array -->
+    {% assign is_post_in_array = false %}
+    {% assign articles_with_same_tag_tmp = "" | split:"" %}
+    {% for item in articles_with_same_tag %}
+      {% assign item_path = item | last %}
+      {% if item_path == post.path %}
+        {% comment %}{% assign item_tmp = "" split: "" %}{% endcomment %}
+        {% comment %}{% assign item_tmp = item_tmp | unshift: item %}{% endcomment %}
+        {% assign item_tmp = item %}
+        {% assign item_tmp = item_tmp | unshift:"a" %}
+        {% assign articles_with_same_tag_tmp = articles_with_same_tag_tmp | push: item_tmp %}
+        {% assign is_post_in_array = true %}
+        {% comment %}<div>Updated        {{ articles_with_same_tag_tmp | jsonify }}      {{ is_post_in_array }}</div>{% endcomment %}
+      {% else %}
+        {% assign articles_with_same_tag_tmp = articles_with_same_tag_tmp | push: item %}
+      {% endif %}
+    {% endfor %}
+    {% assign articles_with_same_tag = articles_with_same_tag_tmp %}
+    <!-- if not, we'll add it -->
+    {% if is_post_in_array == false %}
+      {% if post.path != include.page_path %}
+        {% assign item = "" | split: "" %}
+        {% assign item = item | unshift: post.path %}
+        {% assign item = item | unshift: "a" %}
+        {% assign articles_with_same_tag = articles_with_same_tag | unshift: item %}
+        {% comment %}<div>New item        {{ articles_with_same_tag | jsonify }}       {{ is_post_in_array }}</div>{% endcomment %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+{% assign articles_with_same_tag = articles_with_same_tag | sort %}
+{% comment %}<div>{{ articles_with_same_tag | jsonify }}</div>{% endcomment %}
+
+{% assign size = articles_with_same_tag | size %}
+{% if size > 0 %}
+<div class="include-related-posts">
+<h2>More</h2>
+  {% for index in (1..limit) %}
+    {% assign post_path = articles_with_same_tag | last | last %}
+    {% assign articles_with_same_tag = articles_with_same_tag | pop %}
+    {% comment %}<div>{{ articles_with_same_tag | jsonify }}</div>{% endcomment %}
+    {% for post in site.posts %}
+      {% if post.path == post_path %}
+        <div class="related-post">
+          <div class="related-post-inner">
+            <a href="{{ post.url }}">
+              <span class="details">
+                <span class="date">
+                  {{ post.date | date: '%B %d, %Y' }}
+                </span>
+                {% comment %}
+                <span class="tags">
+                  {% for tag in post.tags %}
+                    <span class="tag">{{ tag }}</span>
+                  {% endfor %}
+                </span>
+                {% endcomment %}
+                <span class="title">
+                  {{ post.title }}
+                </span>
+              </span>
+              <span class="image" style="background-image: url({{ post.avatar }});"></span>
+            </a>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</div>
+{% endif %}
