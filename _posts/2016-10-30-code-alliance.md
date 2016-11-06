@@ -16,6 +16,9 @@ For a couple of years now, we've been running Josra; _Joint Open Source Roadmap 
 
 <!--break-->
 
+[Enroll to our next gathering December 5th, hosted by Grundfos in Bjerringbro](http://www.code-conf.com/code-alliance-5th/){: target="_blank" }
+{: .highlight }
+
 The alliance constituted and met for the first time in Oslo a day in April 2015. The focus was, right from the beginning, to single out companies, that had an ambitious mindset about the new software development paradigm; continuous delivery, automation in general, anything as code, programmable infrastructure, DevOps ...and all that Jazz.
 
 The original idea was, that Praqma already had a lot of Open Source community experience, and a lot of good Karma too, and we saw that our clients became more and more dependent on Open Source as they walked further and further into the landscape of contemporary modern tools - as most of them were Open Source too.
@@ -124,11 +127,13 @@ Funded by Yxlon International and MAN Diesel & Turbo, the plugin has hundreds of
 There are plenty of more Open Source projects that originates from the alliance. you are welcome to browse the Open Source repositories in [our GitHub organization](https://github.com/Praqma/){: target="_blank"} - don't hesitate to contact us, if you see anything the catches you interest.
 
 ## How to become a member
-It's simple: Membership is by invitation only. The reason is that we obviously need members to be ambitious, engaged and enthusiastic.
+It's simple: Everyone is welcome, but our events are by invitation only. The reason is that we obviously need members to be ambitious, engaged and enthusiastic - and since the events are hosted by members we have limited seats.
 
 If if you are a customer of Praqma, you are automatically invited - obviously. Since Praqma's customers are ambitious, engaged and enthusiastic.
 
-[Enroll to our next gathering December 5th, hosted by Grundfos in Bjerringbro](http://www.code-conf.com){: target="_blank" }
+[Contact us on](mailto:info@praqma.com) if you haven't received you access code yet.
+
+[Enroll to our next gathering December 5th, hosted by Grundfos in Bjerringbro](http://www.code-conf.com/code-alliance-5th/){: target="_blank" }
 {: .highlight }
 
 {% include call_to_action.html %}
