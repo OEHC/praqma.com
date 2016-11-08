@@ -186,6 +186,10 @@ customers:
     logo: /images/customers/miljo-og-fodevareministeriet.png
     link: http://mfvm.dk/
   -
+    name: Mjølner Informatics
+    logo: /images/customers/mjolner.png
+    link: https://mjolner.dk/
+  -
     name: MøllerGruppen
     logo: /images/customers/moller-gruppen.png
     link: http://www.moller.no/
