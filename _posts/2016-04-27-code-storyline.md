@@ -13,7 +13,7 @@ __The Continuous Delivery pipeline implements and automates the product’s defi
 <!--break-->
 
 ### Praqma are Continuous Delivery experts
--and we work to end bad hacks and technical debt
+-and we work to remove manual and error prone development work.
 {: .highlight}
 
 Agile teams and automated workflows are here to stay, so we advocate that your organization gets ready for Co-De - Continuous Delivery.
