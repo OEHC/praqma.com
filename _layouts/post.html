@@ -39,10 +39,11 @@ layout: stories
       </div>
     {% endif %}
     {{ content }}
-    {% include related-posts.html limit=2 page_path=page.path %}
+    {% include related-posts.html page_path=page.path %}
     {% if page.comments == true %}
     <hr/>
       {% include google-comments.html %}
     {% endif%}
   </article>
 </div>
+<script src="/javascripts/cookie.js"></script>

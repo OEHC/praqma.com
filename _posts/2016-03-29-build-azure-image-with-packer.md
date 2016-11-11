@@ -54,6 +54,7 @@ Now it's time for our configuration!
 
 #### Example of The JSON file
 
+{% raw %}
 	{
 	  "variables": {
 	    "sn": "Your subscription name",
@@ -89,6 +90,7 @@ Now it's time for our configuration!
 	    }
 	  ]
 	}
+{% endraw %}
 
 To build provisioned image run the packer command:
 >  packer build <name-of-the-json-file>.json
@@ -120,6 +122,7 @@ To build them selectively, set the -only=type-of-builder option when building.
 
 #### Example of the multiple provisioners
 
+{% raw %}
 	"provisioners": [
 	    {
 	      "type": "azure-custom-script-extension",
@@ -132,3 +135,4 @@ To build them selectively, set the -only=type-of-builder option when building.
 	      "script": "{{user `example_dir`}}/script2.ps1"
 	    }
 	  ]
+{% endraw %}

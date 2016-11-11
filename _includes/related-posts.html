@@ -1,11 +1,6 @@
 {% comment %}
-limit — how many items to show
 page_path — this page path
 {% endcomment %}
-{% assign limit = include.limit %}
-{% unless limit %}
-  {% assign limit = 2 %}
-{% endunless %}
 
 {% assign articles_with_same_tag = "" | split:"" %}
 {% for tag in page.tags %}
@@ -58,13 +53,11 @@ page_path — this page path
 {% if size > 0 %}
 <div class="include-related-posts">
 <h2>More</h2>
-  {% for index in (1..limit) %}
-    {% assign post_path = articles_with_same_tag | last | last %}
-    {% assign articles_with_same_tag = articles_with_same_tag | pop %}
-    {% comment %}<div>{{ articles_with_same_tag | jsonify }}</div>{% endcomment %}
+  {% for post in articles_with_same_tag reversed %}
+    {% assign post_path = post | last %}
     {% for post in site.posts %}
       {% if post.path == post_path %}
-        <div class="related-post">
+        <div class="related-post" data-url="{{ post.url }}">
           <div class="related-post-inner">
             <a href="{{ post.url }}">
               <span class="details">
