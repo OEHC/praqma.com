@@ -6,9 +6,9 @@ tags:
   - Featured
 redirect_from:
   - /jobs/praqtitioner/
-avatar:     /images/stories/praqtitioner.png
+avatar:     /images/stories/handcraftsmanship.jpg
 nav-weight: 5
-published: false
+published: true
 ---
 
 Consulting, Continuous Delivery, DevOps, Automation, fixing things that are broken - It's all about craftsmanship. Do you have the talent? Do you recognize quality when you see it? Do you wanna make the world a better place? - well at least the world of software! Join us as a Praqtitioner at Praqma.
@@ -30,7 +30,7 @@ Our credo is: _buy a man and get a team_ - which in plain english translates to 
 
 A typical engagement with a client is founded in a well studied understanding of the customer's situation, a prioritized roadmap and a close engagement with the customer's personnel onsite. We always have a Wolf on-site. _"Wolf"_ is our nickname for senior consultants - referring to Mr. Wolf in _"Pulp Fiction"_ who introduces him self _"I'm Winston Wolf - I Solve problems"_.
 
-The wolf will work with our Continuos Delivery Praqtitioners. These are consultants with a dedicated engagement in Continuous Delivery and DevOps. People who have chosen this domain of knowledge as their career and who take pride in delivering quality - in everything they do.
+The wolf will work with our Continuos Delivery Praqtitioners. Praqtitioners are consultants with a dedicated engagement in Continuous Delivery and DevOps. People who have chosen this domain of knowledge as their career and who take pride in delivering quality - in everything they do.
 
 Being a Praqtitioner in Praqma is itself a learning experience - it takes offset in [our  approach to learning](/stories/praqticum/). You will be solving real problems, in challenging environments. While wolfs will be available to guide and mentor you.
 
