@@ -3,15 +3,10 @@
 
 .layout-post{
   .avatar{
-    max-width: 250px;
-    &.mobile{
-      @extend .visible-xs-block;
-      margin: 10px 0 30px;
-    }
-    &.wide{
-      @extend .hidden-xs;
-      float: right;
-      margin: 7px 10px 20px 20px;
+    width: 100%;
+    margin-bottom: 1em;
+    img{
+      width: 100%;
     }
   }
   .meta{
