@@ -22,6 +22,7 @@
       
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="main-menu-collapse">
+        {% include search.html %}
         <ul class="nav navbar-nav">
           {% assign current-page-folder = page.url | split: "/" | shift | pop %}
           {% for p in menu_items %}
@@ -40,7 +41,6 @@
               <li{% if is_active %} class="active"{% endif %}><a href="{{ p.url }}">{{ p.title }}</a></li>
             {% endif %}
           {% endfor %}
-          {% include search.html %}
         </ul>
       </div><!-- /.navbar-collapse -->
     </div>

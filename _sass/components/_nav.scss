@@ -30,8 +30,8 @@ nav.main-menu{
   margin-top: 15px;
 }
 .brand-logo{
-  @extend .visible-xs;
   @extend .navbar-brand;
+  @extend .visible-xs;
   padding-left: 0;
   padding-top: 0;
   img{
@@ -50,28 +50,86 @@ nav.main-menu{
   }
 }
 #main-menu-collapse{
+  background: #c4c7c6;
+  margin-top: 75px;
+  border-bottom: 2px black solid;
+  @media (min-width: $screen-sm-min) {
+    background: none;
+    margin-top: 0; 
+    border: none;
+  }
   .search{
     @extend .visible-xs-block;
-    margin: 15px 0 10px;
+    margin: 13px 0 7px;
+    /*td.gsc-input{*/
+      /*padding: 0;*/
+    /*}*/
+    td{
+      padding: 0;
+      &.gsc-input{
+        margin-right: -34px;
+        padding-right: 33px;
+        width: 100%;
+      }
+    }
+    .gsc-input, .gsc-search-button{
+      display: inline-block;
+      vertical-align: top;
+    }
+    .gsc-input-box{
+      height: 29px;
+    }
+    input.gsc-input{
+      height: 31px !important;
+      padding: 0 0.5em !important;
+    }
+    .gsc-search-button input[type='image']{
+      padding: 8px 9px;
+    }
+    .gsc-control-cse{
+      background: none;
+      border: none;
+    }
   }
   & > ul{
     float: none;
-    margin: 1em auto 0;
-    text-align: center;
+    margin: 0 auto 8px;
+    @media (min-width: $screen-sm-min) {
+      margin: 1em auto 0;
+      text-align: center;
+    }
     li{
-      float: none;
       display: inline-block;
       text-transform: uppercase;
+      a{
+        background: #9fa1a5;
+        padding: 0;
+        font-size: 1.6em;
+        font-family: $font-family-condensed;
+        color: black;
+        padding: 8px 15px 7px;
+        margin: 0 5px 7px 0;
+      }
+      &.active a{
+        background: $color-orange;
+      }
       @media (min-width: $screen-sm-min) {
+        float: none;
         a {
+          font-size: 1em;
+          font-family: $font-family-base;
           color: $color-white;
+          font-family: $font-family-condensed;
           font-size: 1.3em;
           font-weight: bold;
           letter-spacing: $font-letter-spacing;
           line-height: 33px;
-          font-family: $font-family-condensed;
           padding: 0 15px;
+          margin: 0;
           transition: color $transition-time;
+          background: none;
+          padding: 0 15px;
+          /*padding: 0 !important;*/
           &:hover{
             color: $color-orange;
           }
