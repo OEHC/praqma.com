@@ -52,8 +52,8 @@ if (postsVisitedString != "") {
 }
 // adding current post to cookies, if it's not there already
 var pathname = getPathname(window.location.href);
-console.log(pathname);
-console.log(postsVisited.indexOf(pathname));
+//console.log(pathname);
+//console.log(postsVisited.indexOf(pathname));
 if (postsVisited.indexOf(pathname) == -1){
   if(postsVisitedString != ""){
     postsVisitedString += ",";

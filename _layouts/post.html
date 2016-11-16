@@ -34,11 +34,12 @@ layout: stories
   </header>
   <article class="post-content">
     {{ content }}
+    {% include social-buttons.html url=page.url title=page.title %}
     {% include related-posts.html page_path=page.path %}
     {% if page.comments == true %}
-    <hr/>
+      <hr/>
       {% include google-comments.html %}
-    {% endif%}
+    {% endif %}
   </article>
 </div>
 <script src="/javascripts/cookie.js"></script>

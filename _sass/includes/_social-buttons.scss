@@ -1,0 +1,42 @@
+.include-social-buttons{
+  margin-top: 1.5em;
+  width: 100%;
+  .sbutton{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    width: 25%;
+    a{
+      color: white;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 1.2em;
+      line-height: 40px;
+      width: 100%;
+    }
+  }
+  .facebook a{
+    background: #3d5a97;
+    &:hover{
+      background: darken(#3d5a97, 10);
+    }
+  }
+  .twitter a{
+    background: #32aae0;
+    &:hover{
+      background: darken(#32aae0, 10);
+    }
+  }
+  .googlep a{
+    background: #db4b40;
+    &:hover{
+      background: darken(#db4b40, 10);
+    }
+  }
+  .email a{
+    background: #868686;
+    &:hover{
+      background: darken(#868686, 10);
+    }
+  }
+}

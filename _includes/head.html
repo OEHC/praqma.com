@@ -23,4 +23,11 @@
   <script src="/bower_components/jquery/dist/jquery.min.js"></script>
   {% comment %}should be loaded before ./javascripts/stories-filtering.js{% endcomment %}
   <meta name="google-site-verification" content="NW7KLg-ZdHbdHYZ60xnCn4WjNBPiGgBXyRBWcjWuiJg" />
+  {% comment %}{% if page.layout == "post" %}
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:image" content="{{ site.url }}{{ page.avatar }}" />
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:description" content="{{ page.title }}" />
+  {% endif %}{% endcomment %}
 </head>
