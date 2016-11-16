@@ -1,7 +1,7 @@
 ---
 title:      Consulting
 caption:    Consulting, guidance and best practices
-avatar:     /images/services/consulting.png
+avatar:     /images/praqma-biker-shirt2-4x3.jpg
 nav-weight: 20
 ---
 
