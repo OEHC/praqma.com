@@ -9,6 +9,9 @@ layout: stories
         <img alt="{{ page.caption }}" src="{{ page.avatar }}">
       </div>
     {% endif %}
+    <div class="mobile">
+      {% include social-buttons.html url=page.url title=page.title %}
+    </div>
     <div class="meta">
       <span class="date">{{ page.date | date: "%B %-d, %Y" }}</span>
       {% if page.author %}

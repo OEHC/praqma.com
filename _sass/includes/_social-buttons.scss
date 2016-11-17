@@ -1,6 +1,14 @@
 .include-social-buttons{
+  @include clearfix;
   margin-top: 1.5em;
-  width: 100%;
+  width: 60%;
+  .mobile &{
+    @extend .visible-xs-block;
+    margin-bottom: 2em;
+  }
+  @media (min-width: $screen-sm-min) {
+    width: 100%;
+  }
   .sbutton{
     display: inline-block;
     float: left;
@@ -28,9 +36,17 @@
     }
   }
   .googlep a{
+    @extend .hidden-xs;
     background: #db4b40;
     &:hover{
       background: darken(#db4b40, 10);
+    }
+  }
+  .whatsapp a{
+    @extend .visible-xs-block;
+    background: #75b548;
+    &:hover{
+      background: darken(#75b548, 10);
     }
   }
   .email a{
