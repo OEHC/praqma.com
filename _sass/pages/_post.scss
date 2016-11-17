@@ -3,11 +3,14 @@
 
 .layout-post{
   .avatar{
-    width: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
     margin-bottom: 1em;
-    img{
-      width: 100%;
-    }
+    padding-bottom: 50%;
+    width: 100%;
+    /*img{*/
+      /*width: 100%;*/
+    /*}*/
   }
   .meta{
     /*margin-top: -1em;*/

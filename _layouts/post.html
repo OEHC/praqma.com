@@ -5,9 +5,7 @@ layout: stories
 <div class="layout-post">
   <header class="post-header">
     {% if page.avatar %}
-      <div class="avatar">
-        <img alt="{{ page.caption }}" src="{{ page.avatar }}">
-      </div>
+      <div class="avatar" style="background-image: url({{ page.avatar }});"></div>
     {% endif %}
     <div class="mobile">
       {% include social-buttons.html url=page.url title=page.title %}
