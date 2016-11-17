@@ -1,7 +1,7 @@
 ---
-title:      Conferences
+title:      Community
 caption:    Continuous Delivery conferences and meetups
-avatar:     /images/services/training.png
+avatar:     /images/services/conferences/kelsey-dod-4x3.jpg
 nav-weight: 80
 ---
 

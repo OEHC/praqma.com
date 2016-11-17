@@ -1,7 +1,7 @@
 ---
 title:      Tool specialists
-caption:    Can we fix it? Yes we can!
-avatar:     /images/services/tools.png
+caption:    You name the tool - we've got the experts
+avatar:     /images/services/axe-4x3.jpg
 css-class:  tool-specialists
 redirect_from:
   - /services/atlassianservices/

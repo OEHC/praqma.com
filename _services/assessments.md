@@ -4,7 +4,7 @@ caption:    Continuous Delivery Maturity Assessment
 redirect_from:
   - /foo/
   - /services/health/
-avatar:     /images/services/assessments.png
+avatar:     /images/services/assessment-4x3.JPG
 nav-weight: 10
 ---
 
