@@ -37,3 +37,73 @@
     }
   }
 }
+
+.filters-href-list{
+  position: relative;
+  height: 10px;
+  overflow: hidden;
+  transition: height 1s ease-in-out 0s;
+  &:after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 10px solid $color-black;
+  }
+  a{
+    &:last-of-type{
+      margin-bottom: 10px;
+    }
+  }
+  .filters-href-button{
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    z-index: 10;
+    opacity: 0;
+    transition: opacity 1s ease-in-out 0s;
+  }
+}
+
+.filters-href-button{
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  background-color: $color-black;
+  color: $color-white;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  i{
+    position: relative;
+    left: 1px;
+    top: -1px;
+  }
+}
+
+.filters-href{
+  h3{
+    margin-bottom: 0.4em;
+    .filters-href-button{
+      float: right;
+      position: relative;
+      top: -4px;
+    }
+  }
+}
+
+.filters-href_open{
+  .filters-href-list{
+    .filters-href-button{
+      opacity: 1;
+    }
+  }
+  .filters-href-button{
+    i{
+      &:before{content:"\f077"}
+    }
+  }
+}
