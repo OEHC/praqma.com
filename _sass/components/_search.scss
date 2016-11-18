@@ -1,50 +1,82 @@
 // resolving google search and bootstrap conflict
 
-input.gsc-input,
-.gsc-input-box,
-.gsc-input-box-hover,
-.gsc-input-box-focus,
-.gsc-search-button,
-.gsc-selected-option-container{
-  box-sizing: content-box;
-  line-height: normal;
-}
-.gsc-search-button,
-.gsc-input-box,
-.gsc-input-box-hover,
-.gsc-input-box-focus{
-  border-color: $color-black !important;
-}
-.cse input.gsc-input, input.gsc-input {
-  background: none !important;
-  box-shadow: none;
-  &:focus{
-    background:none;
-    outline: none;
+.search{
+  margin-top: 15px;
+  input.gsc-input,
+  .gsc-input-box,
+  .gsc-input-box-hover,
+  .gsc-input-box-focus,
+  .gsc-search-button,
+  .gsc-selected-option-container{
+    box-sizing: content-box;
+    line-height: normal;
+  }
+  .gsc-search-button,
+  .gsc-input-box,
+  .gsc-input-box-hover,
+  .gsc-input-box-focus{
+    border-color: $color-black !important;
+  }
+
+  .cse input.gsc-input, input.gsc-input {
+    background: none !important;
     box-shadow: none;
+    &:focus{
+      background:none;
+      outline: none;
+      box-shadow: none;
+    }
   }
-}
-.gsc-control-cse.gsc-control-cse-en{
-  padding: 0;
-  margin-top: 0.5em;
-}
-.gsc-search-button input[type='image']{
-  padding: 6px 7px;
-  background-color: $color-black;
-  border-radius: 0;
-  margin: 0;
-  position: relative;
-  &:hover{
-    background-color: $color-black;
-    opacity: 0.7;
+  .gsc-control-cse.gsc-control-cse-en{
+    padding: 0;
+    margin-top: 0.5em;
   }
-}
-.gscb_a{
-  vertical-align: middle;
-}
-.gsib_a{
-  padding-top: 0;
-}
-#gs_cb51, .gsib_b, .gsc-clear-button{
-  display: none;
+  .gsc-search-button input[type='image']{
+    padding: 6px 7px;
+    background-color: $color-black !important;
+    border-radius: 0;
+    margin: 0;
+    position: relative;
+    &:hover{
+      background-color: $color-black;
+      opacity: 0.7;
+    }
+  }
+  .gscb_a{
+    vertical-align: middle;
+  }
+  .gsib_a{
+    padding-top: 0;
+  }
+  #gs_cb51, .gsib_b, .gsc-clear-button{
+    display: none;
+  }
+
+  td{
+    padding: 0;
+    &.gsc-input{
+      margin-right: -34px;
+      padding-right: 33px !important;
+      width: 100%;
+    }
+  }
+  .gsc-input, .gsc-search-button{
+    display: inline-block;
+    vertical-align: top;
+  }
+  .gsc-input-box{
+    height: 29px;
+  }
+  input.gsc-input{
+    height: 31px !important;
+    padding: 0 0.5em !important;
+  }
+  .gsc-search-button input[type='image']{
+    padding: 8px 9px;
+  }
+  .gsc-control-cse{
+    background: none;
+    border: none;
+  }
+
 }

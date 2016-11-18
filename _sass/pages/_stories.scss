@@ -36,74 +36,75 @@
       }
     }
   }
-}
-
-.filters-href-list{
-  position: relative;
-  height: 10px;
-  overflow: hidden;
-  transition: height 1s ease-in-out 0s;
-  &:after{
-    content: '';
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    border-bottom: 10px solid $color-black;
-  }
-  a{
-    &:last-of-type{
-      margin-bottom: 10px;
-    }
-  }
-  .filters-href-button{
-    position: absolute;
-    right: 0;
-    bottom: 0px;
-    z-index: 10;
-    opacity: 0;
-    transition: opacity 1s ease-in-out 0s;
-  }
-}
-
-.filters-href-button{
-  height: 30px;
-  width: 30px;
-  display: inline-block;
-  background-color: $color-black;
-  color: $color-white;
-  font-size: 16px;
-  line-height: 30px;
-  text-align: center;
-  cursor: pointer;
-  i{
-    position: relative;
-    left: 1px;
-    top: -1px;
-  }
-}
-
-.filters-href{
-  h3{
-    margin-bottom: 0.4em;
-    .filters-href-button{
-      float: right;
-      position: relative;
-      top: -4px;
-    }
-  }
-}
-
-.filters-href_open{
   .filters-href-list{
+    height: 10px;
+    margin-top: -9px;
+    overflow: hidden;
+    position: relative;
+    transition: height 0.5s ease-in-out 0s;
+    &:after{
+      border-bottom: 10px solid $color-black;
+      bottom: 0;
+      content: '';
+      display: block;
+      left: 0;
+      position: absolute;
+      width: 100%;
+    }
+    a{
+      &:last-of-type{
+        margin-bottom: 10px;
+      }
+    }
     .filters-href-button{
-      opacity: 1;
+      bottom: 0px;
+      opacity: 0;
+      position: absolute;
+      right: 0;
+      transition: opacity 0.5s ease-in-out 0s;
+      z-index: 10;
     }
   }
   .filters-href-button{
+    background-color: $color-black;
+    color: $color-white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    width: 34px;
     i{
-      &:before{content:"\f077"}
+      left: 1px;
+      position: relative;
+      top: -1px;
+    }
+  }
+  .filters-href{
+    h3{
+      margin-bottom: 25px;
+      transition: margin-bottom 0.5s ease-in-out 0s;
+      .filters-href-button{
+        float: right;
+        position: relative;
+        top: -4px;
+      }
+    }
+  }
+  .filters-href_open{
+    h3{
+      margin-bottom: 20px;
+    }
+    .filters-href-list{
+      .filters-href-button{
+        opacity: 1;
+      }
+    }
+    .filters-href-button{
+      i{
+        &:before{content:"\f077"}
+      }
     }
   }
 }

@@ -64,32 +64,6 @@ nav.main-menu{
     /*td.gsc-input{*/
       /*padding: 0;*/
     /*}*/
-    td{
-      padding: 0;
-      &.gsc-input{
-        margin-right: -34px;
-        padding-right: 33px;
-        width: 100%;
-      }
-    }
-    .gsc-input, .gsc-search-button{
-      display: inline-block;
-      vertical-align: top;
-    }
-    .gsc-input-box{
-      height: 29px;
-    }
-    input.gsc-input{
-      height: 31px !important;
-      padding: 0 0.5em !important;
-    }
-    .gsc-search-button input[type='image']{
-      padding: 8px 9px;
-    }
-    .gsc-control-cse{
-      background: none;
-      border: none;
-    }
   }
   & > ul{
     float: none;

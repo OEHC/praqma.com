@@ -1,5 +1,7 @@
 <section class="story-filters">
-  <h3>Search</h3>
+
+  {% include search.html %}
+
   {% assign tags = "" | split:"" %}
   {% for p in site.posts %}
     {% for t in p.tags %}
@@ -39,7 +41,6 @@
       {% endfor %}
     </select>
   </div>
-  {% include search.html %}
   <script src="/javascripts/stories-filtering.js">
   </script>
 </section>
