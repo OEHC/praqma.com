@@ -1,6 +1,6 @@
 ---
 title:      VMware API Scripting
-subtitle:   Infrastructure as code with vSphere
+subtitle:   Infrastructure as code with vSphere 6.5
 tags:
   - Infrastructure as code
   - Featured
@@ -29,7 +29,7 @@ Both ESXi and vCenter Server provide a web service that you can access by using 
 exposed allows you to do everything you can do in the vSphere clients. For example power on virtual machines or create
 inventory objects like resource pools or network port groups.
 
-The vSphere API has public, open source bindings for multiple languages. This post uses the Ruby binding, `rbvmomi`.
+The vSphere API has bindings for multiple languages. This post uses the Ruby binding, `rbvmomi`.
 Like its relatives, `pyvmomi` and `govmomi`, it is available as open source on GitHub with both guides and samples
 for getting started.
 
@@ -78,7 +78,7 @@ version, `VMware-VMvisor-Installer-6.5.0-4564106.x86_64.iso`. Then I took the fo
 
 ## Results and limitations
 
-I was able to install and start ESXi in VirtualBox and so I could access the web client, the MOB, and create a VM.
+I was able to install and start ESXi in VirtualBox and so I could access the web client and the MOB.
 But since it did not recognize hardware virtualization, I could not power on a 64-bit VM inside ESXi. That's OK.
 I could still test my scripts by creating and powering on a 32-bit Alpine Linux VM inside ESXi.
 
@@ -121,6 +121,10 @@ Datacenter [dc]: ha-datacenter
 [4] pry(main)> dc.vmFolder.childEntity[0].PowerOffVM_Task
 => Task("haTask-3-vim.VirtualMachine.powerOff-194292129")
 ```
+
+Of course, you may not need to access the VMware API directly. If you use Chef for example, you may be able to
+use their wrapper, [knife-vsphere](https://github.com/chef-partners/knife-vsphere). But, as with most open source,
+it may be missing just that bit of functionality that you require.
 
 # More Resources
 
