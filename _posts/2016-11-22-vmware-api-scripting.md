@@ -12,8 +12,8 @@ published: false
 ---
 
 VMware vSphere is widely used for virtualization in the enterprise. Thus you may face the task of managing
-infrastructure on this platform. This post shows you how to get started when you want to do it the right way -
-*as code*.
+infrastructure on this platform and of course this should be done *as code*. This post will give you a jumpstart into
+scripting the vSphere API.
 {: .kicker }
 
 <!--break-->
@@ -76,7 +76,7 @@ version, `VMware-VMvisor-Installer-6.5.0-4564106.x86_64.iso`. Then I took the fo
 - Attach the ISO.
 - Power on and start the installation. Ignore the warning about hardware virtualization not enabled.
 
-## Results and limitations
+## Results and Limitations
 
 I was able to install and start ESXi in VirtualBox and so I could access the web client and the MOB.
 But since it did not recognize hardware virtualization, I could not power on a 64-bit VM inside ESXi. That's OK.
@@ -84,6 +84,8 @@ I could still test my scripts by creating and powering on a 32-bit Alpine Linux 
 
 Also notice that vCenter-only features will not work when using the API against a standalone ESXi host. For example
 using clusters or cloning a VM template.
+
+Finally, ESXi is installed with a 60-day trial license.
 
 # Now Some Code
 
@@ -122,9 +124,9 @@ Datacenter [dc]: ha-datacenter
 => Task("haTask-3-vim.VirtualMachine.powerOff-194292129")
 ```
 
-Of course, you may not need to access the VMware API directly. If you use Chef for example, you may be able to
-use their wrapper, [knife-vsphere](https://github.com/chef-partners/knife-vsphere). But, as with most open source,
-it may be missing just that bit of functionality that you require.
+This post showed you how to access the vSphere API directly. You may not always need this. If you use Chef for example,
+you may be able to use their wrapper, [knife-vsphere](https://github.com/chef-partners/knife-vsphere). But, as with
+most open source, it may be missing just that bit of functionality that you require.
 
 # More Resources
 
