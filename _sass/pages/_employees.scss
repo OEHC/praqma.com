@@ -70,6 +70,7 @@
     &[data-position="0-0"]{
       .content{
         cursor: default;
+        position: relative;
         &:after{
           content: none;
         }
@@ -85,8 +86,8 @@
       /*width: 100% / ($column-number - 1);*/
     /*}*/
   /*}*/
-  .freewall-container[data-total-col="1"] [data-position="0-0"],
-  .freewall-container[data-total-col="2"] [data-position="0-0"]{
+  .pavement-container[data-total-col="1"] [data-position="0-0"],
+  .pavement-container[data-total-col="2"] [data-position="0-0"]{
     .content-wrapper{
       width: 50%;
     }
@@ -94,8 +95,8 @@
       width: 55%;
     }
   }
-  .freewall-container[data-total-col="3"] [data-position="0-0"],
-  .freewall-container[data-total-col="4"] [data-position="0-0"]{
+  .pavement-container[data-total-col="3"] [data-position="0-0"],
+  .pavement-container[data-total-col="4"] [data-position="0-0"]{
     .content-wrapper{
       width: 33.3%;
     }

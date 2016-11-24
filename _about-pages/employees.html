@@ -4,10 +4,9 @@ caption:    Meet the clever CoDe brokers and seasoned software agents that make 
 avatar:     /images/about/staff.svg
 css-class:  employees
 nav-weight: 50
-published: false
 ---
 
-<div class="freewall-container">
+<div class="pavement-container">
   {% for e in site.employees %}
     <div class="employee">
       <div class="content-wrapper">
@@ -22,15 +21,16 @@ published: false
 </div>
 
 <script src="/javascripts/freewall.js"></script>
+<script src="/bower_components/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js"></script>
 <script>
   $(function() {
     var squareUsualSize = 160;
     var squareExpadnedSize = 400;
-    var employees = $(".freewall-container .employee");
+    var employees = $(".pavement-container .employee");
     if ($(document).width() > 500 ){
       squareExpadnedSize = 500;
     }
-    var wall = new Freewall(".freewall-container");
+    var wall = new Freewall(".pavement-container");
 
     wall.reset({
       selector: '.employee',
@@ -44,14 +44,18 @@ published: false
         wall.refresh();
       }
     });
-    $(".freewall-container .employee").click(function() {
+    $(".pavement-container .employee").click(function() {
       employees.removeAttr("data-position");
+      employees.find(".content").perfectScrollbar("destroy"); // removing all custom scrollbars
       wall.fixSize({
         block: employees,
         width:  squareUsualSize,
         height: squareUsualSize
       });
       $(this).attr("data-position", "0-0");
+      $(this).find(".content").perfectScrollbar({  // adding custom scrollbar to clicked item
+        suppressScrollX: true,
+      });
       wall.fixSize({
         block: $(this),
         width:  squareExpadnedSize,
@@ -66,4 +70,6 @@ published: false
 
     wall.fitWidth();
   });
+</script>
+<script>
 </script>
