@@ -85,7 +85,8 @@ I could still test my scripts by creating and powering on a 32-bit Alpine Linux 
 Also notice that vCenter-only features will not work when using the API against a standalone ESXi host. For example
 using clusters or cloning a VM template.
 
-Finally, ESXi is installed with a 60-day trial license.
+Finally, ESXi is installed with a 60-day trial license. After that, you will lose a lot of the API features without a
+license.
 
 # Now Some Code
 
