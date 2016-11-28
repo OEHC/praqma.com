@@ -290,6 +290,10 @@ customers:
     logo: /images/customers/uk2.png
     link: https://www.uk2.net/
   -
+    name: Universal Robots
+    logo: /images/customers/ur.png
+    link: https://www.universal-robots.com/
+  -
     name: Visma
     logo: /images/customers/visma.png
     link: http://www.visma.dk/
