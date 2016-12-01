@@ -33,6 +33,7 @@
     });
   </script>
   <div class="dropdown">
+    <h3>Filter</h3>
     <select onchange="window.location.href=this.options[this.selectedIndex].value">
       <option value="/stories/#Newest">Newest ({{ site.posts | size }})</option>
       {% for t in tags %}
