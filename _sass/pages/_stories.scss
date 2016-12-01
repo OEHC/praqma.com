@@ -46,15 +46,27 @@
       border-bottom: 10px solid $color-black;
       bottom: 0;
       content: '';
-      display: block;
+      display: inline-block;
       left: 0;
       position: absolute;
       width: 100%;
     }
-    a{
-      &:last-of-type{
-        margin-bottom: 10px;
+    ul{
+      padding: 0;
+      margin: 0;
+    }
+    .filters-list-item{
+      list-style: none;
+      display: block;
+      padding: 0;
+      margin: 0;
+      a{
+        display: inline-block;
       }
+    }
+    .filters-item-count{
+      margin-left: 7.5px;
+      color: #cacaca;
     }
     .filters-href-button{
       bottom: 0px;

@@ -14,10 +14,12 @@
   <div class="filters-href" id="filters-href">
     <h3>Filter<span class="filters-href-button"><i class="fa fa-chevron-down"></i></span></h3>
     <div class="filters-href-list">
-      <a href="/stories/#Newest">Newest</a>
-      {% for t in tags %}
-      <a href="/stories/#{{ t | replace: ' ', '%20'}}">{{ t }}</a>
-      {% endfor %}
+      <ul>
+        <li class="filters-list-item"><a href="/stories/#Newest">Newest</a><span class="filters-item-count">{{ site.posts | size }}</span></li>
+        {% for t in tags %}
+        <li class="filters-list-item"><a href="/stories/#{{ t | replace: ' ', '%20'}}">{{ t }}</a><span class="filters-item-count">{{ site.tags.[t] | size }}</span></li>
+	      {% endfor %}
+      </ul>
       <span class="filters-href-button"><i class="fa fa-chevron-down"></i></span>
     </div>
   </div>
@@ -25,19 +27,16 @@
     $('.filters-href-button').on('click', function(){
       var height = 10, elem = $('#filters-href');
       if(!elem.hasClass('filters-href_open')){
-        height += 10;
-        elem.children('.filters-href-list').children('a').each(function(index, el) {
-          height += $(el).height();
-        });
+        height += 10 + elem.children('.filters-href-list').children('ul').height();
       }
       elem.toggleClass('filters-href_open').children('.filters-href-list').css('height', height);
     });
   </script>
   <div class="dropdown">
     <select onchange="window.location.href=this.options[this.selectedIndex].value">
-      <option value="/stories/#Newest">Newest</option>
+      <option value="/stories/#Newest">Newest ({{ site.posts | size }})</option>
       {% for t in tags %}
-        <option value="/stories/#{{ t | replace: ' ', '%20'}}">{{ t }}</option>
+        <option value="/stories/#{{ t | replace: ' ', '%20'}}">{{ t }} ({{ site.tags.[t] | size }})</option>
       {% endfor %}
     </select>
   </div>
