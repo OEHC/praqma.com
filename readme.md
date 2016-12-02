@@ -83,7 +83,7 @@ Employees are described in `_employees/` directory. Their images are stored in `
 ### Avatar
 All stories must have an avatar: A picture that will be shown along site the intro (and in the upper right corner on the full format)
 
-The avatar picture shall be in the format 2:1 (height:width) e.g. 712x356px
+The avatar picture shall be in the format 2:1 (height:width) e.g. 800x400px
 
 ### Intro
 Also referred to as _kicker_, _standfirst_ or _deck_. All stories must have an intro.
