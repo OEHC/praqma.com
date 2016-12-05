@@ -134,6 +134,10 @@ customers:
     logo: /images/customers/frequentis.png
     link: http://www.frequentis.com/en/at/home/
   -
+    name: Gas Secure
+    logo: /images/customers/gassecure.png
+    link: http://gassecure.com/
+  -
     name: GrammaTech
     logo: /images/customers/grammatech.png
     link: http://grammatech.com/
@@ -237,6 +241,10 @@ customers:
     name: 3Shape
     logo: /images/customers/3shape.png
     link: http://www.3shape.com/
+  -
+    name: Schlumberger
+    logo: /images/customers/schlumberger.png
+    link: http://slb.com/
   -
     name: Schneider Electric
     logo: /images/customers/schneider-electric.png
