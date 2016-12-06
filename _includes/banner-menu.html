@@ -1,7 +1,6 @@
 {% for c in site.collections %}
   {% if c.label == include.collection %}
     {% assign docs=c.docs | sort: "nav-weight" %}
-
     <nav class="page-banners">
       {% for d in docs %}
         <article class="menu-item{% if d.url == page.url %} active{% endif %}">
@@ -18,6 +17,5 @@
         </article>
       {% endfor %}
     </nav>
-
   {% endif %}
 {% endfor %}

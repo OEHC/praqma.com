@@ -5,40 +5,4 @@
     @extend .col-md-45;
     @extend .col-md-push-15;
   }
-  /*.tmp nav.service-menu{*/
-    /*@extend .col-md-15;*/
-    /*@extend .col-md-pull-45;*/
-    /*&>h2{*/
-      /*@extend .visible-xs;*/
-      /*margin-bottom: 1em;*/
-    /*}*/
-    /*padding-top: 5px;*/
-    /*.menu-item{*/
-      /*&.active *, &:hover *{*/
-        /*[>border: 2px solid $color-orange;<]*/
-        /*color: $color-orange;*/
-        /*text-decoration: none;*/
-      /*}*/
-      /*&:hover h3{*/
-        /*text-decoration: underline;*/
-      /*}*/
-    /*}*/
-    /*h3{*/
-      /*margin: 0.5em 0 1.2em;*/
-    /*}*/
-    /*p{*/
-      /*margin-bottom: 1em;*/
-    /*}*/
-    /*a{*/
-      /*display: block;*/
-      /*color: $color-black;*/
-      /*transition: color $transition-time;*/
-    /*}*/
-    /*img{*/
-      /*max-width: 50%;*/
-      /*@media (min-width: $screen-sm-min) {*/
-        /*max-width: 100%;*/
-      /*}*/
-    /*}*/
-  /*}*/
 }

@@ -60,6 +60,7 @@ page_path — this page path
         <div class="related-post" data-url="{{ post.url }}">
           <div class="related-post-inner">
             <a href="{{ post.url }}">
+              <span class="image" style="background-image: url({{ post.avatar }});"></span>
               <span class="details">
                 <span class="date">
                   {{ post.date | date: '%B %d, %Y' }}
@@ -75,7 +76,6 @@ page_path — this page path
                   {{ post.title }}
                 </span>
               </span>
-              <span class="image" style="background-image: url({{ post.avatar }});"></span>
             </a>
           </div>
         </div>
@@ -84,3 +84,5 @@ page_path — this page path
   {% endfor %}
 </div>
 {% endif %}
+
+<script src="/javascripts/includes/related-posts.js"></script>

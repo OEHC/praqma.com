@@ -23,15 +23,6 @@
       <span class="filters-href-button"><i class="fa fa-chevron-down"></i></span>
     </div>
   </div>
-  <script>
-    $('.filters-href-button').on('click', function(){
-      var height = 10, elem = $('#filters-href');
-      if(!elem.hasClass('filters-href_open')){
-        height += 10 + elem.children('.filters-href-list').children('ul').height();
-      }
-      elem.toggleClass('filters-href_open').children('.filters-href-list').css('height', height);
-    });
-  </script>
   <div class="dropdown">
     <h3>Filter</h3>
     <select onchange="window.location.href=this.options[this.selectedIndex].value">
@@ -41,6 +32,6 @@
       {% endfor %}
     </select>
   </div>
-  <script src="/javascripts/stories-filtering.js">
-  </script>
 </section>
+<script src="/javascripts/includes/story-filters.js"></script>
+<script src="/javascripts/includes/story-filters-include.js"></script>

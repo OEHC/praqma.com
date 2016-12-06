@@ -36,13 +36,16 @@
       /*}*/
     }
   }
-}
-.post-content{
-  img.post-avatar{
-    margin-top: 2em;
-    width: 100%;
-  }
-  p.caption{
-    color: $color-black;
+  .post-content{
+    img.post-avatar{
+      margin-top: 2em;
+      width: 100%;
+    }
+    p.caption{
+      color: $color-black;
+    }
+    iframe{
+      width: 100%;
+    }
   }
 }

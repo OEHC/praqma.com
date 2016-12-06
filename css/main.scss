@@ -42,17 +42,16 @@ $fa-font-path: "/bower_components/components-font-awesome/fonts/";
 @import "pages/employees";
 @import "pages/josra";
 @import "pages/offices";
-@import "pages/page";
 @import "pages/partners";
-@import "pages/post";
-@import "pages/stories";
-@import "pages/consultation";
+@import "layouts/post";
+@import "layouts/stories";
+@import "layouts/consultation";
 @import "pages/service-page";
 @import "pages/index";
 @import "pages/tool-specialists";
-@import "pages/training";
-@import "pages/training-index";
-@import "pages/training-page";
+@import "layouts/training";
+@import "layouts/training-index";
+@import "layouts/training-page";
 @import "themes/theme";
 
 /*@import "helpers/helpers";*/
