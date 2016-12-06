@@ -5,9 +5,9 @@ tags:
   - Docker
   - Traefik
   - proxy
-redirect_from:
-  - /jobs/praqtitioner/
-avatar:     /images/stories/traefik.logo.png
+author: Henrik Høegh
+avatar:     /images/stories/traefik_architecture.png
+
 nav-weight: 5
 published: false
 ---
@@ -74,60 +74,54 @@ Now we are ready to start the Traefik proxy server, giving it the configuration 
 First we download the latest binary of Traefik from here:
 [traefik download](https://github.com/containous/traefik/releases)
 
-```
-wget https://github.com/containous/traefik/releases/tag/v1.1.1
-```
-```
-chmod u+x traefik_linux-amd64
-sudo ./traefik_linux-amd64 -c traefik.toml
-```
+	wget https://github.com/containous/traefik/releases/tag/v1.1.1
+	chmod u+x traefik_linux-amd64
+	sudo ./traefik_linux-amd64 -c traefik.toml
+
 And there you go. Traefik will listen to the docker.sock for containers and changes on the host, and serve the containers to the outside work.
 
 Add the main domain to your hosts file
-```
-echo "192.168.1.165 praqma.io" >> /etc/hosts
-```
+
+	echo "192.168.1.165 praqma.io" >> /etc/hosts
 
 ## Test the proxy
 Now go to the consol of Traefik at [praqma.io:8088](http://praqma.io:8088) for Traefik consol
 
-![Traefik consol](traefik_consul.png)
+![Traefik consol](/images/stories/traefik_consul.png)
 
 You will see that we have a frontend and a backend. The Rule for the frontend is : Host:jenkins.praqma.io.
 The backend is using our Docker container to get the trafic.
 
 Now try and visit Jenkins
 
-> open http://jenkins.praqma.io
+> open [http://jenkins.praqma.io](http://jenkins.praqma.io)
 
 You should then get the Jenkins start page :
 
-![Jenkins start page](jenkins_container_traefik.png)
+![Jenkins start page](/images/stories/jenkins_container_traefik.png)
 
 ## Start Artifactory
 Now we start artifactory, and want it served on the dns artifactory.praqma.io.
 
-```
-docker run --name artifactory --label="traefik.port=8080" -d mattgruter/artifactory
-```
+	docker run --name artifactory --label="traefik.port=8080" -d mattgruter/artifactory
+
 Add Artifactory to your hosts file
-```
-echo "192.168.1.165 artifactory.praqma.io" >> /etc/hosts
-```
+
+	echo "192.168.1.165 artifactory.praqma.io" >> /etc/hosts
 
 Now Traefik should pick up our Artifactory container, and start serving it on
 [Artifactory.praqma.io](http://artifactory.praqma.io) automaticly.
 
 You will notis that Artifactory has been added to the consol for Traefik at [praqma.io:8088](http://praqma.io:8088)
 
-![Traefik consol](jenkins_artifactory_traefik_consol.png)
+![Traefik consol](/images/stories/jenkins_artifactory_traefik_consol.png)
 
 
 ## Stopping Jenkins
 Now stop the Jenkins container, while viewing the Traefik consol.
-```
-docker stop jenkins
-```
+
+	docker stop jenkins
+
 It will automaticly remove the Jenkins entry from Traefik. Clever.
 
 ## Next time
