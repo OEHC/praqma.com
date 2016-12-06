@@ -194,6 +194,10 @@ customers:
     logo: /images/customers/mjolner.png
     link: https://mjolner.dk/
   -
+    name: Multi Support
+    logo: /images/customers/multisupport.png
+    link: http://www.multi-support.com/
+  -
     name: MøllerGruppen
     logo: /images/customers/moller-gruppen.png
     link: http://www.moller.no/
