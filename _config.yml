@@ -37,7 +37,7 @@ collections:
   about-pages:
     output: true
     permalink: /about/:path/
-  employees:
+  people:
     output: true
 
 defaults:

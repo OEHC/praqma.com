@@ -2,20 +2,20 @@
 title:      Rouges gallery
 caption:    Meet the clever CoDe brokers and seasoned software agents that make Praqma great
 avatar:     /images/about/staff.svg
-css-class:  employees
+css-class:  people
 nav-weight: 50
 published:  false
 ---
 
 <div class="pavement-container">
-  {% for e in site.employees %}
-    <div class="employee">
+  {% for e in site.people %}
+    <div class="people-person">
       <div class="content-wrapper">
         <div class="content">
           {{ e.content | markdownify }}
         </div>
       </div>
-      <div class="image" style="background-image: url(/images/employees/{{ e.path | split:'/' | last | split:"." | first }}.png);">
+      <div class="image" style="background-image: url(/images/people/{{ e.path | split:'/' | last | split:"." | first }}.png);">
       </div>
     </div>
   {% endfor %}
@@ -27,14 +27,14 @@ published:  false
   $(function() {
     var squareUsualSize = 160;
     var squareExpadnedSize = 400;
-    var employees = $(".pavement-container .employee");
+    var people = $(".pavement-container .people-person");
     if ($(document).width() > 500 ){
       squareExpadnedSize = 500;
     }
     var wall = new Freewall(".pavement-container");
 
     wall.reset({
-      selector: '.employee',
+      selector: '.people-person',
       animate: true,
       cellW: squareUsualSize,
       cellH: squareUsualSize,
@@ -45,11 +45,11 @@ published:  false
         wall.refresh();
       }
     });
-    $(".pavement-container .employee").click(function() {
-      employees.removeAttr("data-position");
-      employees.find(".content").perfectScrollbar("destroy"); // removing all custom scrollbars
+    $(".pavement-container .people-person").click(function() {
+      people.removeAttr("data-position");
+      people.find(".content").perfectScrollbar("destroy"); // removing all custom scrollbars
       wall.fixSize({
-        block: employees,
+        block: people,
         width:  squareUsualSize,
         height: squareUsualSize
       });
@@ -65,7 +65,7 @@ published:  false
       wall.refresh();
       // Scroll to top after clicking a person it the list
       var body = $("html, body");
-      var scrollTo = $(".page-employees h1").offset().top;
+      var scrollTo = $(".page-people h1").offset().top;
       body.stop().animate({scrollTop: scrollTo }, '200', 'swing');
     });
 
