@@ -29,9 +29,9 @@ Stories blog post are supposed to be reviewed and get feedback before being publ
 
 Fire up the website to browse it locally using our gh-pages container: https://github.com/Praqma/docker-gh-pages
 
-Use: `docker run -i -t -v /home/user/mysite:/home/jenkins -p 4444:4000 praqma/gh-pages jekyll serve --watch --host=0.0.0.0`
+Use: `docker run --rm -i -t -v `pwd`:/home/jenkins -p 4444:4000 praqma/gh-pages jekyll serve --watch --host=0.0.0.0`
 
-Usually posts are using `published: false` to start with so they are not public on our before we coordinate it. 
+Usually posts are using `published: false` to start with so they are not public on our before we coordinate it.
 
 Add the `--unpublished` parameter to the above command to see those get build and published on local version also.
 
