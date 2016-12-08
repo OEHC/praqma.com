@@ -1,7 +1,7 @@
 ---
 title: Continuous Delivery Conference Stockholm 2016
 subtitle: Good vibes and speaker slides
-tags: Conference
+tags: Conference Featured
 avatar: /images/stories/codesthlmpanel1.jpg
 published:  true
 ---
@@ -53,15 +53,12 @@ Our generous speakers have let us share their material with you, so you can brus
 
 
 
-![CoDe Sthlm](/images/stories/slidesetemily.png)![CoDe Sthlm](/images/stories/slidesethannes.png) ![CoDe Sthlm](/images/stories/slidesetpetra.png)
+![CoDe Sthlm](/images/stories/slidesetemily.png) ![CoDe Sthlm](/images/stories/slidesethannes1.png)
+ . ![CoDe Sthlm](/images/stories/slidesetpetra1.png)
 
-
-[CoDe Sthlm](/images/stories/guillaumespeaks.png){: .pic .medium .center}
-
-
-
+<br/>
 
 ## [Remember to keep yourself up to date with Continuous Delivery and DevOps events on code-conf.com](http://www.code-conf.com/)
 
 
-[CoDe Sthlm](/images/stories/lanyardssthlm16.png){: .pic .medium .center}
+![CoDe Sthlm](/images/stories/lanyardssthlm16.jpg){: .pic .medium .center}
