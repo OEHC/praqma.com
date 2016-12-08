@@ -13,15 +13,23 @@ layout: stories
     <div class="meta">
       <span class="date">{{ page.date | date: "%B %-d, %Y" }}</span>
       {% if page.author %}
+      {% for people_person in site.people %}
+        {% assign person_id = people_person.path | split:'/' | last | split:"." | first %}
+        {% if person_id == page.author %}
+          {% comment %}
+          we'll cut out `h3` tag
+          {% endcomment %}
+          {% assign author_name = people_person.content | split:"###" | last | newline_to_br | split: '<br />' | first | strip %}
+          {% assign is_person_found = true %}
+        {% endif %}
+      {% endfor %}
         <span class="author">
-        {% if page.author-link %}
-          <a href="{{page.author-link}}" target="_blank">
-        {% endif %}
-        {{page.author}}
-        {% if page.author-link %}
-          </a>
-        {% endif %}
-        &nbsp;
+          {% if is_person_found %}
+            <a href="/about/people/#{{ page.author }}">{{ author_name }}</a>
+          {% else %}
+            {{ page.author }}
+          {% endif %}
+          &nbsp;
         </span>
       {% endif %}
       {% for t in page.tags %}

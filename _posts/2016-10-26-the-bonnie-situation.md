@@ -3,8 +3,7 @@ title: The Bonnie Situation
 subtitle: A bloody yet edifying story about consultancy
 tags:
   - How We Work
-author: Lars Kruse
-author-link: 'http://twitter.com/lakruzz'
+author: lakruzz
 comments: false
 avatar: /images/stories/bonnie/74-chevy-nova-with-brains_3x4.jpg
 nav-weight: 5

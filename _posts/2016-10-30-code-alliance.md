@@ -4,8 +4,7 @@ subtitle: Now open to all, no more membership fees
 tags:
   - Josra
   - CoDe Alliance
-author: Lars Kruse
-author-link: 'http://twitter.com/lakruzz'
+author: lakruzz
 comments: false
 avatar: /images/stories/code-alliance-3x4.png
 nav-weight: 5

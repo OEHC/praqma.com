@@ -1,7 +1,7 @@
 ---
 title: Automated Jenkins Plugin documentation
 tags: [Jenkins, Maven, Automated, Git, Documentation, Release, Plugin, Markdown, Confluence]
-author: Bue Petersen
+author: buep
 avatar: /images/stories/document-all-things.jpg
 ---
 

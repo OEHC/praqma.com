@@ -4,8 +4,7 @@ subtitle: The planning approach at Praqma
 tags:
   - How We Work
   - Agile
-author: Lars Kruse
-author-link: 'http://twitter.com/lakruzz'
+author: lakruzz
 comments: true
 avatar: /images/stories/labels.png
 nav-weight: 5

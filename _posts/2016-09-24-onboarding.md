@@ -4,8 +4,7 @@ subtitle: The onboarding process at Praqma
 tags:
   - How We Work
   - Jobs
-author: Lars Kruse
-author-link: 'http://twitter.com/lakruzz'
+author: lakruzz
 comments: false
 avatar: /images/about/praqma-wings.jpg
 nav-weight: 5

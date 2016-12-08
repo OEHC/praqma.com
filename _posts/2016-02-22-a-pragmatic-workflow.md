@@ -3,8 +3,7 @@ title:       A Pragmatic Workflow
 subtitle:    A workflow automated and optimized for simplicity
 tags:        [How We Work, Featured]
 avatar:      /images/stories/workflow_in_git_4x3.png
-author:      Lars Kruse
-author-link: http://twitter.com/lakruzz
+author:      lakruzz
 comments:    true
 nav-weight:  2
 ---

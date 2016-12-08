@@ -2,7 +2,7 @@
 title: Pretested integration with Job DSL
 tags: [Featured, Jenkins, Pretested, Job DSL]
 avatar: /images/stories/jobdsl_4x3.png
-author: Mike Long
+author: meekrosoft
 published:  false
 ---
 

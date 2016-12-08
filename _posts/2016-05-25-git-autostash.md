@@ -2,8 +2,7 @@
 title:      Git autostash
 subtitle:   Pulling changes into a dirty workspace
 tags:       [Git, Tips]
-author:      Jan Krag
-author-link: http://twitter.com/jankrag
+author:      jkrag
 comments:    true
 avatar:     /images/training/git-logo.png
 ---

@@ -4,7 +4,7 @@ subtitle: Can you really trust your Docker images?
 tags:
   - Docker
   - Featured
-author: Bue Petersen
+author: buep
 comments: false
 avatar: /images/stories/container.jpg
 nav-weight: 5

@@ -4,71 +4,23 @@ caption:    Meet the clever CoDe brokers and seasoned software agents that make 
 avatar:     /images/about/staff.svg
 css-class:  people
 nav-weight: 50
-published:  false
 ---
 
-<div class="pavement-container">
+<div class="people pavement-container">
   {% for e in site.people %}
-    <div class="people-person">
+  {% assign id = e.path | split:'/' | last | split:"." | first  %}
+    <div class="people-person" data-id="{{ id }}">
       <div class="content-wrapper">
         <div class="content">
           {{ e.content | markdownify }}
         </div>
       </div>
-      <div class="image" style="background-image: url(/images/people/{{ e.path | split:'/' | last | split:"." | first }}.png);">
+      <div class="image" style="background-image: url(/images/people/{{ id }}.png);">
       </div>
     </div>
   {% endfor %}
 </div>
 
-<script src="/javascripts/freewall.js"></script>
 <script src="/bower_components/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js"></script>
-<script>
-  $(function() {
-    var squareUsualSize = 160;
-    var squareExpadnedSize = 400;
-    var people = $(".pavement-container .people-person");
-    if ($(document).width() > 500 ){
-      squareExpadnedSize = 500;
-    }
-    var wall = new Freewall(".pavement-container");
-
-    wall.reset({
-      selector: '.people-person',
-      animate: true,
-      cellW: squareUsualSize,
-      cellH: squareUsualSize,
-      gutterX: 10,
-      gutterY: 10,
-      delay: 0,
-      onResize: function() {
-        wall.refresh();
-      }
-    });
-    $(".pavement-container .people-person").click(function() {
-      people.removeAttr("data-position");
-      people.find(".content").perfectScrollbar("destroy"); // removing all custom scrollbars
-      wall.fixSize({
-        block: people,
-        width:  squareUsualSize,
-        height: squareUsualSize
-      });
-      $(this).attr("data-position", "0-0");
-      $(this).find(".content").perfectScrollbar({  // adding custom scrollbar to clicked item
-        suppressScrollX: true,
-      });
-      wall.fixSize({
-        block: $(this),
-        width:  squareExpadnedSize,
-        height: squareExpadnedSize
-      });
-      wall.refresh();
-      // Scroll to top after clicking a person it the list
-      var body = $("html, body");
-      var scrollTo = $(".page-people h1").offset().top;
-      body.stop().animate({scrollTop: scrollTo }, '200', 'swing');
-    });
-
-    wall.fitWidth();
-  });
-</script>
+<script src="/bower_components/freewall/freewall.js"></script>
+<script src="/javascripts/pages/people.js"></script>

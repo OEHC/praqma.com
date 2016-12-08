@@ -2,7 +2,7 @@
 title:  LinkChecker - Jekyll flavor
 tags:   [Jekyll, Jenkins, LinkChecker, Warnings plugin]
 avatar: /images/stories/broken-link.4x3.png
-author: Lars Kruse
+author: lakruzz
 ---
 
 UPDATE: Updated alongside the parser, now picks up warnings with newlines in their messages.

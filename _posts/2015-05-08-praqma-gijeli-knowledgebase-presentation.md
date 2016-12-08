@@ -2,7 +2,7 @@
 title: Praqma Gijeli knowledgebase presentation
 tags: [Gijeli, Wiki, Markdown, Ruby]
 avatar: /images/stories/placeholder.png
-author: Bue Petersen
+author: buep
 published: false
 ---
 

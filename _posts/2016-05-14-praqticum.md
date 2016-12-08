@@ -2,8 +2,7 @@
 title:      Praqticum - the learning approach at Praqma
 subtitle:
 tags:       [Featured, Learning, Praqticum, Agile ]
-author:      Lars Kruse
-author-link: http://twitter.com/lakruzz
+author:      lakruzz
 comments:    true
 avatar:     /images/stories/praqticum.jpg
 nav-weight: 5

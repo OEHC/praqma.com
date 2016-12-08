@@ -2,8 +2,7 @@
 title:      The mass cognitive revolution disrupting software
 subtitle:
 tags:       [Featured, Agile, Strategy, Tools ]
-author:      Mike Long
-author-link: http://twitter.com/meekrosoft
+author:      meekrosoft
 comments:    true
 avatar:     /images/stories/brain.jpg
 nav-weight: 5
