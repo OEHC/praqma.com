@@ -11,13 +11,13 @@ Praqma's conference finale for 2016 was [CoDe Conf in Stockholm.](http://www.cod
 
 <!--break-->
 
-##A day of beautiful contrasts
+## A day of beautiful contrasts
 
 The last CoDe Conference of 2016 happened on Tuesday 29th of November in the heart of Stockholm and we couldn’t be prouder to receive the feedback:
 
 > "Well organized, interesting topics and talks, useful, fun, exciting!"
 
-###Cold day, warm vibes
+### Cold day, warm vibes
 
 150 curious participants from businesses across Northern Europe arrived in the still dark winter morning and were welcomed into the bright Meeting Room, that quickly buzzed with an excited ambience, as the Swedish hospitality and fragrant cinnamon buns filled the venue to the brim.
 
@@ -25,7 +25,7 @@ The last CoDe Conference of 2016 happened on Tuesday 29th of November in the hea
 ![CoDe Sthlm](/images/stories/codeconfstaircase.jpg){: .pic .medium .center}
 
 
-###Solar systems and biohacking
+### Solar systems and biohacking
 
 The speakers made sure there was some solid variety in topics, from Petra Wernkvist who showed how Westermo succeeded with testing tough weather equipment, to Tore Martin Hagen’s experience with automating tests with huge amounts of very precise data.
 
@@ -46,10 +46,10 @@ The fine red line through all the talks: The rapid technological development tha
 ![CoDe Sthlm](/images/stories/codeconfaudience1.jpg){: .pic .medium .center}
 
 
-##WANNA SEE THE SLIDES?
+## WANNA SEE THE SLIDES?
 Our generous speakers have let us share their material with you, so you can brush up - or see what you missed out on:
 
-##[SEE THE SLIDES HERE](https://drive.google.com/drive/folders/0B4fPio_UKSlecTJ5R3BDZTF4MVk)
+## [SEE THE SLIDES HERE](https://drive.google.com/drive/folders/0B4fPio_UKSlecTJ5R3BDZTF4MVk)
 
 
 
@@ -61,4 +61,7 @@ Our generous speakers have let us share their material with you, so you can brus
 
 
 
-##[Remember to keep yourself up to date with Continuous Delivery and DevOps events on code-conf.com](http://www.code-conf.com/)
+## [Remember to keep yourself up to date with Continuous Delivery and DevOps events on code-conf.com](http://www.code-conf.com/)
+
+
+[CoDe Sthlm](/images/stories/lanyardssthlm16.png){: .pic .medium .center}
